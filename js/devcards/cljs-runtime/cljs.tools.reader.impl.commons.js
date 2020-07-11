@@ -157,11 +157,11 @@ return cljs.tools.reader.impl.commons.skip_line(rdr);
 (cljs.tools.reader.impl.commons.read_comment.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(cljs.tools.reader.impl.commons.read_comment.cljs$lang$applyTo = (function (seq24356){
-var G__24357 = cljs.core.first(seq24356);
-var seq24356__$1 = cljs.core.next(seq24356);
+(cljs.tools.reader.impl.commons.read_comment.cljs$lang$applyTo = (function (seq24352){
+var G__24353 = cljs.core.first(seq24352);
+var seq24352__$1 = cljs.core.next(seq24352);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__24357,seq24356__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__24353,seq24352__$1);
 }));
 
 cljs.tools.reader.impl.commons.throwing_reader = (function cljs$tools$reader$impl$commons$throwing_reader(msg){

@@ -23,10 +23,10 @@ var argseq__4796__auto__ = ((((1) < args__4795__auto__.length))?(new cljs.core.I
 return devtools.reporter.report_internal_error_BANG_.cljs$core$IFn$_invoke$arity$variadic((arguments[(0)]),argseq__4796__auto__);
 });
 
-(devtools.reporter.report_internal_error_BANG_.cljs$core$IFn$_invoke$arity$variadic = (function (e,p__23601){
-var vec__23602 = p__23601;
-var context = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23602,(0),null);
-var footer = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23602,(1),null);
+(devtools.reporter.report_internal_error_BANG_.cljs$core$IFn$_invoke$arity$variadic = (function (e,p__23604){
+var vec__23605 = p__23604;
+var context = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23605,(0),null);
+var footer = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__23605,(1),null);
 var console = (devtools.context.get_console.cljs$core$IFn$_invoke$arity$0 ? devtools.context.get_console.cljs$core$IFn$_invoke$arity$0() : devtools.context.get_console.call(null));
 try{var message = (((e instanceof Error))?(function (){var or__4185__auto__ = e.message;
 if(cljs.core.truth_(or__4185__auto__)){
@@ -62,18 +62,18 @@ group_collapsed.apply(console,header);
 log.apply(console,details);
 
 return group_end.call(console);
-}catch (e23605){var e__$1 = e23605;
+}catch (e23608){var e__$1 = e23608;
 return console.error("FATAL: report-internal-error! failed",e__$1);
 }}));
 
 (devtools.reporter.report_internal_error_BANG_.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(devtools.reporter.report_internal_error_BANG_.cljs$lang$applyTo = (function (seq23596){
-var G__23597 = cljs.core.first(seq23596);
-var seq23596__$1 = cljs.core.next(seq23596);
+(devtools.reporter.report_internal_error_BANG_.cljs$lang$applyTo = (function (seq23602){
+var G__23603 = cljs.core.first(seq23602);
+var seq23602__$1 = cljs.core.next(seq23602);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23597,seq23596__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__23603,seq23602__$1);
 }));
 
 

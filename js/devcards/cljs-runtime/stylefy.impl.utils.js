@@ -9,10 +9,10 @@ goog.require('clojure.string');
  * Removes stylefy's namespaced keywords from the given map.
  */
 stylefy.impl.utils.remove_special_keywords = (function stylefy$impl$utils$remove_special_keywords(props){
-return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.dissoc,props,cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__34615_SHARP_){
-var and__4174__auto__ = cljs.core.namespace(p1__34615_SHARP_);
+return cljs.core.apply.cljs$core$IFn$_invoke$arity$3(cljs.core.dissoc,props,cljs.core.filter.cljs$core$IFn$_invoke$arity$2((function (p1__34612_SHARP_){
+var and__4174__auto__ = cljs.core.namespace(p1__34612_SHARP_);
 if(cljs.core.truth_(and__4174__auto__)){
-return clojure.string.starts_with_QMARK_(cljs.core.namespace(p1__34615_SHARP_),"stylefy");
+return clojure.string.starts_with_QMARK_(cljs.core.namespace(p1__34612_SHARP_),"stylefy");
 } else {
 return and__4174__auto__;
 }
