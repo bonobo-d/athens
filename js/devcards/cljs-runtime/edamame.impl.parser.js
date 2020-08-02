@@ -203,13 +203,13 @@ continue;
 break;
 }
 
-var G__59604 = vals;
-vals = G__59604;
+var G__59603 = vals;
+vals = G__59603;
 continue;
 } else {
 if(edamame.impl.parser.non_match_QMARK_(next_val)){
-var G__59605 = vals;
-vals = G__59605;
+var G__59604 = vals;
+vals = G__59604;
 continue;
 } else {
 var G__59606 = cljs.core.conj_BANG_.cljs$core$IFn$_invoke$arity$2(vals,next_val);

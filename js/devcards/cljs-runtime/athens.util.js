@@ -87,8 +87,8 @@ return clojure.string.replace(x__$3,/PM/,"pm");
 }
 });
 athens.util.regex_esc_char_map = (function (){var esc_chars = "()*&^%$#![]";
-return cljs.core.zipmap(esc_chars,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__39195_SHARP_){
-return ["\\",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__39195_SHARP_)].join('');
+return cljs.core.zipmap(esc_chars,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__39196_SHARP_){
+return ["\\",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__39196_SHARP_)].join('');
 }),esc_chars));
 })();
 /**

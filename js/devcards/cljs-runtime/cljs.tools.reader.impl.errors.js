@@ -179,8 +179,8 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26457,seq26456
 }));
 
 cljs.tools.reader.impl.errors.throw_eof_delimited = (function cljs$tools$reader$impl$errors$throw_eof_delimited(var_args){
-var G__26460 = arguments.length;
-switch (G__26460) {
+var G__26459 = arguments.length;
+switch (G__26459) {
 case 4:
 return cljs.tools.reader.impl.errors.throw_eof_delimited.cljs$core$IFn$_invoke$arity$4((arguments[(0)]),(arguments[(1)]),(arguments[(2)]),(arguments[(3)]));
 
@@ -237,14 +237,14 @@ return cljs.tools.reader.impl.errors.reader_error.cljs$core$IFn$_invoke$arity$va
 });
 cljs.tools.reader.impl.errors.throw_eof_reading = (function cljs$tools$reader$impl$errors$throw_eof_reading(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___26505 = arguments.length;
-var i__4790__auto___26506 = (0);
+var len__4789__auto___26502 = arguments.length;
+var i__4790__auto___26503 = (0);
 while(true){
-if((i__4790__auto___26506 < len__4789__auto___26505)){
-args__4795__auto__.push((arguments[i__4790__auto___26506]));
+if((i__4790__auto___26503 < len__4789__auto___26502)){
+args__4795__auto__.push((arguments[i__4790__auto___26503]));
 
-var G__26507 = (i__4790__auto___26506 + (1));
-i__4790__auto___26506 = G__26507;
+var G__26504 = (i__4790__auto___26503 + (1));
+i__4790__auto___26503 = G__26504;
 continue;
 } else {
 }
@@ -256,9 +256,9 @@ return cljs.tools.reader.impl.errors.throw_eof_reading.cljs$core$IFn$_invoke$ari
 });
 
 (cljs.tools.reader.impl.errors.throw_eof_reading.cljs$core$IFn$_invoke$arity$variadic = (function (rdr,kind,start){
-var init = (function (){var G__26468 = kind;
-var G__26468__$1 = (((G__26468 instanceof cljs.core.Keyword))?G__26468.fqn:null);
-switch (G__26468__$1) {
+var init = (function (){var G__26465 = kind;
+var G__26465__$1 = (((G__26465 instanceof cljs.core.Keyword))?G__26465.fqn:null);
+switch (G__26465__$1) {
 case "regex":
 return "#\"";
 
@@ -268,7 +268,7 @@ return "\"";
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__26468__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__26465__$1)].join('')));
 
 }
 })();
@@ -278,13 +278,13 @@ return cljs.tools.reader.impl.errors.eof_error.cljs$core$IFn$_invoke$arity$varia
 (cljs.tools.reader.impl.errors.throw_eof_reading.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(cljs.tools.reader.impl.errors.throw_eof_reading.cljs$lang$applyTo = (function (seq26465){
-var G__26466 = cljs.core.first(seq26465);
-var seq26465__$1 = cljs.core.next(seq26465);
-var G__26467 = cljs.core.first(seq26465__$1);
-var seq26465__$2 = cljs.core.next(seq26465__$1);
+(cljs.tools.reader.impl.errors.throw_eof_reading.cljs$lang$applyTo = (function (seq26461){
+var G__26462 = cljs.core.first(seq26461);
+var seq26461__$1 = cljs.core.next(seq26461);
+var G__26463 = cljs.core.first(seq26461__$1);
+var seq26461__$2 = cljs.core.next(seq26461__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26466,G__26467,seq26465__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26462,G__26463,seq26461__$2);
 }));
 
 cljs.tools.reader.impl.errors.throw_no_dispatch = (function cljs$tools$reader$impl$errors$throw_no_dispatch(rdr,ch){
@@ -366,12 +366,12 @@ var freq = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26483,(1),null);
 if((freq > (1))){
 cljs.core.chunk_append(b__26482,id);
 
-var G__26512 = (i__26481 + (1));
-i__26481 = G__26512;
+var G__26511 = (i__26481 + (1));
+i__26481 = G__26511;
 continue;
 } else {
-var G__26513 = (i__26481 + (1));
-i__26481 = G__26513;
+var G__26512 = (i__26481 + (1));
+i__26481 = G__26512;
 continue;
 }
 } else {

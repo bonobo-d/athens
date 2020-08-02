@@ -105,16 +105,16 @@ return new cljs.core.Keyword(null,"r","r",-471384190).cljs$core$IFn$_invoke$arit
  */
 clojure.zip.down = (function clojure$zip$down(loc){
 if(cljs.core.truth_(clojure.zip.branch_QMARK_(loc))){
-var vec__49245 = loc;
-var node = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__49245,(0),null);
-var path = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__49245,(1),null);
-var vec__49248 = clojure.zip.children(loc);
-var seq__49249 = cljs.core.seq(vec__49248);
-var first__49250 = cljs.core.first(seq__49249);
-var seq__49249__$1 = cljs.core.next(seq__49249);
-var c = first__49250;
-var cnext = seq__49249__$1;
-var cs = vec__49248;
+var vec__49244 = loc;
+var node = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__49244,(0),null);
+var path = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__49244,(1),null);
+var vec__49247 = clojure.zip.children(loc);
+var seq__49248 = cljs.core.seq(vec__49247);
+var first__49249 = cljs.core.first(seq__49248);
+var seq__49248__$1 = cljs.core.next(seq__49248);
+var c = first__49249;
+var cnext = seq__49248__$1;
+var cs = vec__49247;
 if(cljs.core.truth_(cs)){
 return cljs.core.with_meta(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [c,new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"l","l",1395893423),cljs.core.PersistentVector.EMPTY,new cljs.core.Keyword(null,"pnodes","pnodes",1739080565),(cljs.core.truth_(path)?cljs.core.conj.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"pnodes","pnodes",1739080565).cljs$core$IFn$_invoke$arity$1(path),node):new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [node], null)),new cljs.core.Keyword(null,"ppath","ppath",-1758182784),path,new cljs.core.Keyword(null,"r","r",-471384190),cnext], null)], null),cljs.core.meta(loc));
 } else {
@@ -325,8 +325,8 @@ while(true){
 if((i__4790__auto___49334 < len__4789__auto___49333)){
 args__4795__auto__.push((arguments[i__4790__auto___49334]));
 
-var G__49335 = (i__4790__auto___49334 + (1));
-i__4790__auto___49334 = G__49335;
+var G__49336 = (i__4790__auto___49334 + (1));
+i__4790__auto___49334 = G__49336;
 continue;
 } else {
 }

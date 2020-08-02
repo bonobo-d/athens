@@ -413,13 +413,13 @@ break;
 default:
 var args_arr__4810__auto__ = [];
 var len__4789__auto___32107 = arguments.length;
-var i__4790__auto___32109 = (0);
+var i__4790__auto___32108 = (0);
 while(true){
-if((i__4790__auto___32109 < len__4789__auto___32107)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___32109]));
+if((i__4790__auto___32108 < len__4789__auto___32107)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___32108]));
 
-var G__32111 = (i__4790__auto___32109 + (1));
-i__4790__auto___32109 = G__32111;
+var G__32109 = (i__4790__auto___32108 + (1));
+i__4790__auto___32108 = G__32109;
 continue;
 } else {
 }
@@ -483,14 +483,14 @@ return reagent.core.merge_props.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___32121 = arguments.length;
-var i__4790__auto___32122 = (0);
+var len__4789__auto___32117 = arguments.length;
+var i__4790__auto___32118 = (0);
 while(true){
-if((i__4790__auto___32122 < len__4789__auto___32121)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___32122]));
+if((i__4790__auto___32118 < len__4789__auto___32117)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___32118]));
 
-var G__32123 = (i__4790__auto___32122 + (1));
-i__4790__auto___32122 = G__32123;
+var G__32119 = (i__4790__auto___32118 + (1));
+i__4790__auto___32118 = G__32119;
 continue;
 } else {
 }
@@ -554,14 +554,14 @@ return reagent.core.atom.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 break;
 default:
 var args_arr__4810__auto__ = [];
-var len__4789__auto___32135 = arguments.length;
-var i__4790__auto___32138 = (0);
+var len__4789__auto___32130 = arguments.length;
+var i__4790__auto___32131 = (0);
 while(true){
-if((i__4790__auto___32138 < len__4789__auto___32135)){
-args_arr__4810__auto__.push((arguments[i__4790__auto___32138]));
+if((i__4790__auto___32131 < len__4789__auto___32130)){
+args_arr__4810__auto__.push((arguments[i__4790__auto___32131]));
 
-var G__32140 = (i__4790__auto___32138 + (1));
-i__4790__auto___32138 = G__32140;
+var G__32135 = (i__4790__auto___32131 + (1));
+i__4790__auto___32131 = G__32135;
 continue;
 } else {
 }
@@ -607,14 +607,14 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__32059,seq32058
  */
 reagent.core.track = (function reagent$core$track(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___32146 = arguments.length;
-var i__4790__auto___32147 = (0);
+var len__4789__auto___32143 = arguments.length;
+var i__4790__auto___32146 = (0);
 while(true){
-if((i__4790__auto___32147 < len__4789__auto___32146)){
-args__4795__auto__.push((arguments[i__4790__auto___32147]));
+if((i__4790__auto___32146 < len__4789__auto___32143)){
+args__4795__auto__.push((arguments[i__4790__auto___32146]));
 
-var G__32148 = (i__4790__auto___32147 + (1));
-i__4790__auto___32147 = G__32148;
+var G__32148 = (i__4790__auto___32146 + (1));
+i__4790__auto___32146 = G__32148;
 continue;
 } else {
 }
@@ -651,14 +651,14 @@ return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__32062,seq32061
  */
 reagent.core.track_BANG_ = (function reagent$core$track_BANG_(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___32152 = arguments.length;
-var i__4790__auto___32153 = (0);
+var len__4789__auto___32150 = arguments.length;
+var i__4790__auto___32151 = (0);
 while(true){
-if((i__4790__auto___32153 < len__4789__auto___32152)){
-args__4795__auto__.push((arguments[i__4790__auto___32153]));
+if((i__4790__auto___32151 < len__4789__auto___32150)){
+args__4795__auto__.push((arguments[i__4790__auto___32151]));
 
-var G__32154 = (i__4790__auto___32153 + (1));
-i__4790__auto___32153 = G__32154;
+var G__32152 = (i__4790__auto___32151 + (1));
+i__4790__auto___32151 = G__32152;
 continue;
 } else {
 }
@@ -715,14 +715,14 @@ return reagent.ratom.dispose_BANG_(x);
  */
 reagent.core.wrap = (function reagent$core$wrap(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___32159 = arguments.length;
-var i__4790__auto___32161 = (0);
+var len__4789__auto___32155 = arguments.length;
+var i__4790__auto___32156 = (0);
 while(true){
-if((i__4790__auto___32161 < len__4789__auto___32159)){
-args__4795__auto__.push((arguments[i__4790__auto___32161]));
+if((i__4790__auto___32156 < len__4789__auto___32155)){
+args__4795__auto__.push((arguments[i__4790__auto___32156]));
 
-var G__32163 = (i__4790__auto___32161 + (1));
-i__4790__auto___32161 = G__32163;
+var G__32159 = (i__4790__auto___32156 + (1));
+i__4790__auto___32156 = G__32159;
 continue;
 } else {
 }
@@ -799,14 +799,14 @@ return reagent.ratom.cursor(src,path);
  */
 reagent.core.rswap_BANG_ = (function reagent$core$rswap_BANG_(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___32168 = arguments.length;
-var i__4790__auto___32169 = (0);
+var len__4789__auto___32166 = arguments.length;
+var i__4790__auto___32168 = (0);
 while(true){
-if((i__4790__auto___32169 < len__4789__auto___32168)){
-args__4795__auto__.push((arguments[i__4790__auto___32169]));
+if((i__4790__auto___32168 < len__4789__auto___32166)){
+args__4795__auto__.push((arguments[i__4790__auto___32168]));
 
-var G__32171 = (i__4790__auto___32169 + (1));
-i__4790__auto___32169 = G__32171;
+var G__32170 = (i__4790__auto___32168 + (1));
+i__4790__auto___32168 = G__32170;
 continue;
 } else {
 }
@@ -855,8 +855,8 @@ if((temp__5737__auto__ == null)){
 return s;
 } else {
 var sf = temp__5737__auto__;
-var G__32178 = (sf.cljs$core$IFn$_invoke$arity$1 ? sf.cljs$core$IFn$_invoke$arity$1(s) : sf.call(null,s));
-s = G__32178;
+var G__32175 = (sf.cljs$core$IFn$_invoke$arity$1 ? sf.cljs$core$IFn$_invoke$arity$1(s) : sf.call(null,s));
+s = G__32175;
 continue;
 }
 break;
@@ -902,14 +902,14 @@ return reagent.impl.batching.do_after_render(f);
  */
 reagent.core.partial = (function reagent$core$partial(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___32182 = arguments.length;
-var i__4790__auto___32183 = (0);
+var len__4789__auto___32180 = arguments.length;
+var i__4790__auto___32181 = (0);
 while(true){
-if((i__4790__auto___32183 < len__4789__auto___32182)){
-args__4795__auto__.push((arguments[i__4790__auto___32183]));
+if((i__4790__auto___32181 < len__4789__auto___32180)){
+args__4795__auto__.push((arguments[i__4790__auto___32181]));
 
-var G__32184 = (i__4790__auto___32183 + (1));
-i__4790__auto___32183 = G__32184;
+var G__32183 = (i__4790__auto___32181 + (1));
+i__4790__auto___32181 = G__32183;
 continue;
 } else {
 }
