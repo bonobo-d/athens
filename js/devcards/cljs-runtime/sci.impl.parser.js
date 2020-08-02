@@ -49,8 +49,8 @@ return sym;
 return ret;
 });
 sci.impl.parser.parse_next = (function sci$impl$parser$parse_next(var_args){
-var G__59583 = arguments.length;
-switch (G__59583) {
+var G__59580 = arguments.length;
+switch (G__59580) {
 case 1:
 return sci.impl.parser.parse_next.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -78,8 +78,8 @@ var current_ns = sci.impl.vars.current_ns_name();
 var the_current_ns = cljs.core.get_in.cljs$core$IFn$_invoke$arity$2(env_val,new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"namespaces","namespaces",-1444157469),current_ns], null));
 var aliases = new cljs.core.Keyword(null,"aliases","aliases",1346874714).cljs$core$IFn$_invoke$arity$1(the_current_ns);
 var auto_resolve = cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(aliases,new cljs.core.Keyword(null,"current","current",-1088038603),current_ns);
-var parse_opts = cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(sci.impl.parser.opts,new cljs.core.Keyword(null,"read-cond","read-cond",1056899244),new cljs.core.Keyword(null,"allow","allow",-1857325745),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"features","features",-1146962336),features,new cljs.core.Keyword(null,"auto-resolve","auto-resolve",1851201983),auto_resolve,new cljs.core.Keyword(null,"syntax-quote","syntax-quote",-1233164847),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"resolve-symbol","resolve-symbol",-319166964),(function (p1__59581_SHARP_){
-return sci.impl.parser.fully_qualify(ctx,p1__59581_SHARP_);
+var parse_opts = cljs.core.assoc.cljs$core$IFn$_invoke$arity$variadic(sci.impl.parser.opts,new cljs.core.Keyword(null,"read-cond","read-cond",1056899244),new cljs.core.Keyword(null,"allow","allow",-1857325745),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"features","features",-1146962336),features,new cljs.core.Keyword(null,"auto-resolve","auto-resolve",1851201983),auto_resolve,new cljs.core.Keyword(null,"syntax-quote","syntax-quote",-1233164847),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"resolve-symbol","resolve-symbol",-319166964),(function (p1__59578_SHARP_){
+return sci.impl.parser.fully_qualify(ctx,p1__59578_SHARP_);
 })], null),new cljs.core.Keyword("tools.reader","opts","tools.reader/opts",-2121810901),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"readers","readers",-2118263030),readers], null)], 0));
 var ret = edamame.impl.parser.parse_next(parse_opts,r);
 return ret;

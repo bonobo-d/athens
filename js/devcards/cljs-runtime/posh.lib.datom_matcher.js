@@ -82,28 +82,28 @@ if(cljs.core.empty_QMARK_(patterns)){
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"new-patterns","new-patterns",404552774),cljs.core.cons(cljs.core.vec(cljs.core.cons(entids,rest_datom)),new_patterns),new cljs.core.Keyword(null,"leftover-patterns","leftover-patterns",377032963),leftover_patterns], null);
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(rest_datom,cljs.core.rest(cljs.core.first(patterns)))){
-var G__24263 = clojure.set.union.cljs$core$IFn$_invoke$arity$2(entids,((cljs.core.set_QMARK_(cljs.core.ffirst(patterns)))?cljs.core.ffirst(patterns):cljs.core.set(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.ffirst(patterns)], null))));
-var G__24264 = rest_datom;
-var G__24265 = cljs.core.rest(patterns);
-var G__24266 = new_patterns;
-var G__24267 = leftover_patterns;
-entids = G__24263;
-rest_datom = G__24264;
-patterns = G__24265;
-new_patterns = G__24266;
-leftover_patterns = G__24267;
+var G__24267 = clojure.set.union.cljs$core$IFn$_invoke$arity$2(entids,((cljs.core.set_QMARK_(cljs.core.ffirst(patterns)))?cljs.core.ffirst(patterns):cljs.core.set(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.ffirst(patterns)], null))));
+var G__24268 = rest_datom;
+var G__24269 = cljs.core.rest(patterns);
+var G__24270 = new_patterns;
+var G__24271 = leftover_patterns;
+entids = G__24267;
+rest_datom = G__24268;
+patterns = G__24269;
+new_patterns = G__24270;
+leftover_patterns = G__24271;
 continue;
 } else {
-var G__24269 = entids;
-var G__24270 = rest_datom;
-var G__24271 = cljs.core.rest(patterns);
-var G__24272 = new_patterns;
-var G__24273 = cljs.core.cons(cljs.core.first(patterns),leftover_patterns);
-entids = G__24269;
-rest_datom = G__24270;
-patterns = G__24271;
-new_patterns = G__24272;
-leftover_patterns = G__24273;
+var G__24272 = entids;
+var G__24273 = rest_datom;
+var G__24274 = cljs.core.rest(patterns);
+var G__24275 = new_patterns;
+var G__24276 = cljs.core.cons(cljs.core.first(patterns),leftover_patterns);
+entids = G__24272;
+rest_datom = G__24273;
+patterns = G__24274;
+new_patterns = G__24275;
+leftover_patterns = G__24276;
 continue;
 }
 }

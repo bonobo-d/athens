@@ -138,10 +138,10 @@ if(reagent.impl.util.named_QMARK_(k)){
 var temp__5737__auto__ = reagent.impl.template.cache_get(reagent.impl.template.custom_prop_name_cache,cljs.core.name(k));
 if((temp__5737__auto__ == null)){
 var v = reagent.impl.util.dash_to_prop_name(k);
-var G__31924_31965 = reagent.impl.template.custom_prop_name_cache;
-var G__31925_31966 = cljs.core.name(k);
-var G__31926_31967 = v;
-goog.object.set(G__31924_31965,G__31925_31966,G__31926_31967);
+var G__31924_31967 = reagent.impl.template.custom_prop_name_cache;
+var G__31925_31968 = cljs.core.name(k);
+var G__31926_31969 = v;
+goog.object.set(G__31924_31967,G__31925_31968,G__31926_31969);
 
 return v;
 } else {
@@ -154,10 +154,10 @@ return k;
 });
 reagent.impl.template.custom_kv_conv = (function reagent$impl$template$custom_kv_conv(o,k,v){
 var G__31927 = o;
-var G__31928_31968 = G__31927;
-var G__31929_31969 = reagent.impl.template.cached_custom_prop_name(k);
-var G__31930_31970 = reagent.impl.template.convert_prop_value(v);
-goog.object.set(G__31928_31968,G__31929_31969,G__31930_31970);
+var G__31928_31975 = G__31927;
+var G__31929_31976 = reagent.impl.template.cached_custom_prop_name(k);
+var G__31930_31977 = reagent.impl.template.convert_prop_value(v);
+goog.object.set(G__31928_31975,G__31929_31976,G__31930_31977);
 
 return G__31927;
 });
@@ -176,24 +176,24 @@ return cljs.core.clj__GT_js(x);
 } else {
 if(cljs.core.ifn_QMARK_(x)){
 return (function() { 
-var G__31971__delegate = function (args){
+var G__31978__delegate = function (args){
 return cljs.core.apply.cljs$core$IFn$_invoke$arity$2(x,args);
 };
-var G__31971 = function (var_args){
+var G__31978 = function (var_args){
 var args = null;
 if (arguments.length > 0) {
-var G__31972__i = 0, G__31972__a = new Array(arguments.length -  0);
-while (G__31972__i < G__31972__a.length) {G__31972__a[G__31972__i] = arguments[G__31972__i + 0]; ++G__31972__i;}
-  args = new cljs.core.IndexedSeq(G__31972__a,0,null);
+var G__31979__i = 0, G__31979__a = new Array(arguments.length -  0);
+while (G__31979__i < G__31979__a.length) {G__31979__a[G__31979__i] = arguments[G__31979__i + 0]; ++G__31979__i;}
+  args = new cljs.core.IndexedSeq(G__31979__a,0,null);
 } 
-return G__31971__delegate.call(this,args);};
-G__31971.cljs$lang$maxFixedArity = 0;
-G__31971.cljs$lang$applyTo = (function (arglist__31973){
-var args = cljs.core.seq(arglist__31973);
-return G__31971__delegate(args);
+return G__31978__delegate.call(this,args);};
+G__31978.cljs$lang$maxFixedArity = 0;
+G__31978.cljs$lang$applyTo = (function (arglist__31980){
+var args = cljs.core.seq(arglist__31980);
+return G__31978__delegate(args);
 });
-G__31971.cljs$core$IFn$_invoke$arity$variadic = G__31971__delegate;
-return G__31971;
+G__31978.cljs$core$IFn$_invoke$arity$variadic = G__31978__delegate;
+return G__31978;
 })()
 ;
 } else {
@@ -447,11 +447,11 @@ var c = reagent.impl.component.as_class(tag);
 var jsprops = ({});
 (jsprops.argv = v);
 
-var temp__5739__auto___31989 = reagent.impl.template.key_from_vec(v);
-if((temp__5739__auto___31989 == null)){
+var temp__5739__auto___32010 = reagent.impl.template.key_from_vec(v);
+if((temp__5739__auto___32010 == null)){
 } else {
-var key_31990 = temp__5739__auto___31989;
-(jsprops.key = key_31990);
+var key_32011 = temp__5739__auto___32010;
+(jsprops.key = key_32011);
 }
 
 return module$node_modules$react$index.createElement(c,jsprops);
@@ -467,11 +467,11 @@ return ({});
 }
 })();
 var first_child = ((1) + ((hasprops)?(1):(0)));
-var temp__5739__auto___31991 = reagent.impl.template.key_from_vec(argv);
-if((temp__5739__auto___31991 == null)){
+var temp__5739__auto___32012 = reagent.impl.template.key_from_vec(argv);
+if((temp__5739__auto___32012 == null)){
 } else {
-var key_31992 = temp__5739__auto___31991;
-(jsprops.key = key_31992);
+var key_32013 = temp__5739__auto___32012;
+(jsprops.key = key_32013);
 }
 
 return (reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4 ? reagent.impl.template.make_element.cljs$core$IFn$_invoke$arity$4(argv,module$node_modules$react$index.Fragment,jsprops,first_child) : reagent.impl.template.make_element.call(null,argv,module$node_modules$react$index.Fragment,jsprops,first_child));

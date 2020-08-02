@@ -137,8 +137,8 @@ var temp__5733__auto__ = reitit.frontend.match_by_name.cljs$core$IFn$_invoke$ari
 if(cljs.core.truth_(temp__5733__auto__)){
 var match = temp__5733__auto__;
 if(reitit.core.partial_match_QMARK_(match)){
-if(cljs.core.every_QMARK_((function (p1__55640_SHARP_){
-return cljs.core.contains_QMARK_(path_params,p1__55640_SHARP_);
+if(cljs.core.every_QMARK_((function (p1__55639_SHARP_){
+return cljs.core.contains_QMARK_(path_params,p1__55639_SHARP_);
 }),new cljs.core.Keyword(null,"required","required",1807647006).cljs$core$IFn$_invoke$arity$1(match))){
 return match;
 } else {
