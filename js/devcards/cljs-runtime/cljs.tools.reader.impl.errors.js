@@ -256,9 +256,9 @@ return cljs.tools.reader.impl.errors.throw_eof_reading.cljs$core$IFn$_invoke$ari
 });
 
 (cljs.tools.reader.impl.errors.throw_eof_reading.cljs$core$IFn$_invoke$arity$variadic = (function (rdr,kind,start){
-var init = (function (){var G__26465 = kind;
-var G__26465__$1 = (((G__26465 instanceof cljs.core.Keyword))?G__26465.fqn:null);
-switch (G__26465__$1) {
+var init = (function (){var G__26468 = kind;
+var G__26468__$1 = (((G__26468 instanceof cljs.core.Keyword))?G__26468.fqn:null);
+switch (G__26468__$1) {
 case "regex":
 return "#\"";
 
@@ -268,7 +268,7 @@ return "\"";
 
 break;
 default:
-throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__26465__$1)].join('')));
+throw (new Error(["No matching clause: ",cljs.core.str.cljs$core$IFn$_invoke$arity$1(G__26468__$1)].join('')));
 
 }
 })();
@@ -278,13 +278,13 @@ return cljs.tools.reader.impl.errors.eof_error.cljs$core$IFn$_invoke$arity$varia
 (cljs.tools.reader.impl.errors.throw_eof_reading.cljs$lang$maxFixedArity = (2));
 
 /** @this {Function} */
-(cljs.tools.reader.impl.errors.throw_eof_reading.cljs$lang$applyTo = (function (seq26461){
-var G__26462 = cljs.core.first(seq26461);
-var seq26461__$1 = cljs.core.next(seq26461);
-var G__26463 = cljs.core.first(seq26461__$1);
-var seq26461__$2 = cljs.core.next(seq26461__$1);
+(cljs.tools.reader.impl.errors.throw_eof_reading.cljs$lang$applyTo = (function (seq26463){
+var G__26464 = cljs.core.first(seq26463);
+var seq26463__$1 = cljs.core.next(seq26463);
+var G__26465 = cljs.core.first(seq26463__$1);
+var seq26463__$2 = cljs.core.next(seq26463__$1);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26462,G__26463,seq26461__$2);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__26464,G__26465,seq26463__$2);
 }));
 
 cljs.tools.reader.impl.errors.throw_no_dispatch = (function cljs$tools$reader$impl$errors$throw_no_dispatch(rdr,ch){
@@ -366,12 +366,12 @@ var freq = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__26483,(1),null);
 if((freq > (1))){
 cljs.core.chunk_append(b__26482,id);
 
-var G__26511 = (i__26481 + (1));
-i__26481 = G__26511;
-continue;
-} else {
 var G__26512 = (i__26481 + (1));
 i__26481 = G__26512;
+continue;
+} else {
+var G__26513 = (i__26481 + (1));
+i__26481 = G__26513;
 continue;
 }
 } else {

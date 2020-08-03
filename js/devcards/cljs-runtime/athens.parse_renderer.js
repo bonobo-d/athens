@@ -140,14 +140,14 @@ return athens.router.navigate_uid.cljs$core$IFn$_invoke$arity$1(new cljs.core.Ke
 var G__58368 = function (var_args){
 var tag_name = null;
 if (arguments.length > 0) {
-var G__58375__i = 0, G__58375__a = new Array(arguments.length -  0);
-while (G__58375__i < G__58375__a.length) {G__58375__a[G__58375__i] = arguments[G__58375__i + 0]; ++G__58375__i;}
-  tag_name = new cljs.core.IndexedSeq(G__58375__a,0,null);
+var G__58378__i = 0, G__58378__a = new Array(arguments.length -  0);
+while (G__58378__i < G__58378__a.length) {G__58378__a[G__58378__i] = arguments[G__58378__i + 0]; ++G__58378__i;}
+  tag_name = new cljs.core.IndexedSeq(G__58378__a,0,null);
 } 
 return G__58368__delegate.call(this,tag_name);};
 G__58368.cljs$lang$maxFixedArity = 0;
-G__58368.cljs$lang$applyTo = (function (arglist__58377){
-var tag_name = cljs.core.seq(arglist__58377);
+G__58368.cljs$lang$applyTo = (function (arglist__58379){
+var tag_name = cljs.core.seq(arglist__58379);
 return G__58368__delegate(tag_name);
 });
 G__58368.cljs$core$IFn$_invoke$arity$variadic = G__58368__delegate;

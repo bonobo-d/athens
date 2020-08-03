@@ -5,8 +5,8 @@ goog.require('stylefy.core');
 athens.style.COLORS = cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"background-plus-2","background-plus-2",-2111504159),new cljs.core.Keyword(null,"body-text-color","body-text-color",-349110936),new cljs.core.Keyword(null,"link-color","link-color",1347118056),new cljs.core.Keyword(null,"background-minus-2","background-minus-2",-1711017591),new cljs.core.Keyword(null,"background-color","background-color",570434026),new cljs.core.Keyword(null,"background-plus-1","background-plus-1",-1065812304),new cljs.core.Keyword(null,"warning-color","warning-color",924289810),new cljs.core.Keyword(null,"border-color","border-color",-2059162761),new cljs.core.Keyword(null,"confirmation-color","confirmation-color",346216600),new cljs.core.Keyword(null,"header-text-color","header-text-color",-2100972680),new cljs.core.Keyword(null,"highlight-color","highlight-color",-1394121540),new cljs.core.Keyword(null,"background-minus-1","background-minus-1",-955162179)],["#333","#AAA","#2399E7","#111","#1A1A1A","#222","#DE3C21","hsla(32, 81%, 90%, 0.08)","#189E36","#BABABA","#FBBE63","#151515"]);
 athens.style.THEME_LIGHT = cljs.core.PersistentHashMap.fromArrays([new cljs.core.Keyword(null,"background-plus-2","background-plus-2",-2111504159),new cljs.core.Keyword(null,"body-text-color","body-text-color",-349110936),new cljs.core.Keyword(null,"link-color","link-color",1347118056),new cljs.core.Keyword(null,"background-minus-2","background-minus-2",-1711017591),new cljs.core.Keyword(null,"background-color","background-color",570434026),new cljs.core.Keyword(null,"background-plus-1","background-plus-1",-1065812304),new cljs.core.Keyword(null,"warning-color","warning-color",924289810),new cljs.core.Keyword(null,"border-color","border-color",-2059162761),new cljs.core.Keyword(null,"confirmation-color","confirmation-color",346216600),new cljs.core.Keyword(null,"header-text-color","header-text-color",-2100972680),new cljs.core.Keyword(null,"highlight-color","highlight-color",-1394121540),new cljs.core.Keyword(null,"background-minus-1","background-minus-1",-955162179)],["#FFFFFF","#433F38","#0075E1","#EFEDEB","#FFFFFF","#FFFFFF","#D20000","hsla(32, 81%, 10%, 0.08)","#009E23","#322F38","#F9A132","#FAF8F6"]);
 athens.style.THEME_DARK = athens.style.COLORS;
-athens.style.HSL_COLORS = cljs.core.reduce_kv((function (p1__45403_SHARP_,p2__45404_SHARP_,p3__45405_SHARP_){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__45403_SHARP_,p2__45404_SHARP_,garden.color.hex__GT_hsl(p3__45405_SHARP_));
+athens.style.HSL_COLORS = cljs.core.reduce_kv((function (p1__45489_SHARP_,p2__45490_SHARP_,p3__45491_SHARP_){
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(p1__45489_SHARP_,p2__45490_SHARP_,garden.color.hex__GT_hsl(p3__45491_SHARP_));
 }),cljs.core.PersistentArrayMap.EMPTY,athens.style.COLORS);
 athens.style.DEPTH_SHADOWS = new cljs.core.PersistentArrayMap(null, 4, [new cljs.core.Keyword(null,"4","4",-1197948085),"0px 1.6px 3.6px rgba(0, 0, 0, 0.13), 0px 0.3px 0.9px rgba(0, 0, 0, 0.1)",new cljs.core.Keyword(null,"8","8",1405994928),"0px 3.2px 7.2px rgba(0, 0, 0, 0.13), 0px 0.6px 1.8px rgba(0, 0, 0, 0.1)",new cljs.core.Keyword(null,"16","16",1354114028),"0px 6.4px 14.4px rgba(0, 0, 0, 0.13), 0px 1.2px 3.6px rgba(0, 0, 0, 0.1)",new cljs.core.Keyword(null,"64","64",977820579),"0px 24px 60px rgba(0, 0, 0, 0.15), 0px 5px 12px rgba(0, 0, 0, 0.1)"], null);
 athens.style.OPACITIES = new cljs.core.PersistentArrayMap(null, 5, [new cljs.core.Keyword(null,"opacity-lower","opacity-lower",-521611975),0.1,new cljs.core.Keyword(null,"opacity-low","opacity-low",-761003971),0.25,new cljs.core.Keyword(null,"opacity-med","opacity-med",1700530190),0.5,new cljs.core.Keyword(null,"opacity-high","opacity-high",1902226703),0.75,new cljs.core.Keyword(null,"opacity-higher","opacity-higher",413124730),0.85], null);
@@ -22,8 +22,8 @@ return garden.color.opacify((c.cljs$core$IFn$_invoke$arity$1 ? c.cljs$core$IFn$_
 }
 });
 athens.style.color = (function athens$style$color(var_args){
-var G__45408 = arguments.length;
-switch (G__45408) {
+var G__45497 = arguments.length;
+switch (G__45497) {
 case 1:
 return athens.style.color.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

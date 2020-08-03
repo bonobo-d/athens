@@ -4,19 +4,19 @@ goog.require('cljs.core');
  * Dissociate this keyseq from m, removing any empty maps created as a result
  * (including at the top-level).
  */
-dommy.utils.dissoc_in = (function dommy$utils$dissoc_in(m,p__41077){
-var vec__41078 = p__41077;
-var seq__41079 = cljs.core.seq(vec__41078);
-var first__41080 = cljs.core.first(seq__41079);
-var seq__41079__$1 = cljs.core.next(seq__41079);
-var k = first__41080;
-var ks = seq__41079__$1;
+dommy.utils.dissoc_in = (function dommy$utils$dissoc_in(m,p__41062){
+var vec__41063 = p__41062;
+var seq__41064 = cljs.core.seq(vec__41063);
+var first__41065 = cljs.core.first(seq__41064);
+var seq__41064__$1 = cljs.core.next(seq__41064);
+var k = first__41065;
+var ks = seq__41064__$1;
 if(cljs.core.truth_(m)){
 var temp__5733__auto__ = (function (){var and__4174__auto__ = ks;
 if(and__4174__auto__){
-var G__41083 = (m.cljs$core$IFn$_invoke$arity$1 ? m.cljs$core$IFn$_invoke$arity$1(k) : m.call(null,k));
-var G__41084 = ks;
-return (dommy.utils.dissoc_in.cljs$core$IFn$_invoke$arity$2 ? dommy.utils.dissoc_in.cljs$core$IFn$_invoke$arity$2(G__41083,G__41084) : dommy.utils.dissoc_in.call(null,G__41083,G__41084));
+var G__41071 = (m.cljs$core$IFn$_invoke$arity$1 ? m.cljs$core$IFn$_invoke$arity$1(k) : m.call(null,k));
+var G__41072 = ks;
+return (dommy.utils.dissoc_in.cljs$core$IFn$_invoke$arity$2 ? dommy.utils.dissoc_in.cljs$core$IFn$_invoke$arity$2(G__41071,G__41072) : dommy.utils.dissoc_in.call(null,G__41071,G__41072));
 } else {
 return and__4174__auto__;
 }
@@ -45,11 +45,11 @@ return Array.prototype.slice.call(array_like);
  */
 dommy.utils.as_str = (function dommy$utils$as_str(s){
 if((s instanceof cljs.core.Keyword)){
-return [(function (){var G__41086 = cljs.core.namespace(s);
-if((G__41086 == null)){
+return [(function (){var G__41074 = cljs.core.namespace(s);
+if((G__41074 == null)){
 return null;
 } else {
-return [G__41086,"/"].join('');
+return [G__41074,"/"].join('');
 }
 })(),cljs.core.name(s)].join('');
 } else {
@@ -102,10 +102,10 @@ var class_len = class_name.length;
 var temp__5733__auto__ = dommy.utils.class_index(class_name,class$);
 if(cljs.core.truth_(temp__5733__auto__)){
 var i = temp__5733__auto__;
-var G__41089 = (function (){var end = (i + class$.length);
+var G__41088 = (function (){var end = (i + class$.length);
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1((((end < class_len))?[cljs.core.str.cljs$core$IFn$_invoke$arity$1(class_name.substring((0),i)),cljs.core.str.cljs$core$IFn$_invoke$arity$1(class_name.substr((end + (1))))].join(''):class_name.substring((0),(i - (1)))));
 })();
-class_name = G__41089;
+class_name = G__41088;
 continue;
 } else {
 return class_name;
