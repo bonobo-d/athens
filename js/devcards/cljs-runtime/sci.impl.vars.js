@@ -1236,10 +1236,10 @@ var ret = cljs.core.PersistentVector.EMPTY;
 var vvs = cljs.core.seq(var_vals);
 while(true){
 if(vvs){
-var G__58943 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.conj.cljs$core$IFn$_invoke$arity$2(ret,cljs.core.sequence.cljs$core$IFn$_invoke$arity$1(cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2((new cljs.core.List(null,new cljs.core.Symbol(null,"var","var",870848730,null),null,(1),null)),(new cljs.core.List(null,cljs.core.first(vvs),null,(1),null)))))),cljs.core.second(vvs));
-var G__58944 = cljs.core.next(cljs.core.next(vvs));
-ret = G__58943;
-vvs = G__58944;
+var G__58941 = cljs.core.conj.cljs$core$IFn$_invoke$arity$2(cljs.core.conj.cljs$core$IFn$_invoke$arity$2(ret,cljs.core.sequence.cljs$core$IFn$_invoke$arity$1(cljs.core.seq(cljs.core.concat.cljs$core$IFn$_invoke$arity$2((new cljs.core.List(null,new cljs.core.Symbol(null,"var","var",870848730,null),null,(1),null)),(new cljs.core.List(null,cljs.core.first(vvs),null,(1),null)))))),cljs.core.second(vvs));
+var G__58942 = cljs.core.next(cljs.core.next(vvs));
+ret = G__58941;
+vvs = G__58942;
 continue;
 } else {
 return cljs.core.seq(ret);
@@ -1272,14 +1272,14 @@ return sci.impl.vars.getName(cljs.core.deref(sci.impl.vars.current_ns));
 });
 sci.impl.vars.alter_var_root = (function sci$impl$vars$alter_var_root(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___58948 = arguments.length;
-var i__4790__auto___58949 = (0);
+var len__4789__auto___58946 = arguments.length;
+var i__4790__auto___58947 = (0);
 while(true){
-if((i__4790__auto___58949 < len__4789__auto___58948)){
-args__4795__auto__.push((arguments[i__4790__auto___58949]));
+if((i__4790__auto___58947 < len__4789__auto___58946)){
+args__4795__auto__.push((arguments[i__4790__auto___58947]));
 
-var G__58950 = (i__4790__auto___58949 + (1));
-i__4790__auto___58949 = G__58950;
+var G__58948 = (i__4790__auto___58947 + (1));
+i__4790__auto___58947 = G__58948;
 continue;
 } else {
 }

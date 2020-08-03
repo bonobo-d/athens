@@ -12,8 +12,8 @@ cljc.java_time.instant.range = (function cljc$java_time$instant$range(this3983,j
 return this3983.range(java_time_temporal_TemporalField3984);
 });
 cljc.java_time.instant.of_epoch_second = (function cljc$java_time$instant$of_epoch_second(var_args){
-var G__34186 = arguments.length;
-switch (G__34186) {
+var G__34189 = arguments.length;
+switch (G__34189) {
 case 1:
 return cljc.java_time.instant.of_epoch_second.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -57,8 +57,8 @@ cljc.java_time.instant.plus_nanos = (function cljc$java_time$instant$plus_nanos(
 return this3997.plusNanos(long3998);
 });
 cljc.java_time.instant.plus = (function cljc$java_time$instant$plus(var_args){
-var G__34188 = arguments.length;
-switch (G__34188) {
+var G__34191 = arguments.length;
+switch (G__34191) {
 case 2:
 return cljc.java_time.instant.plus.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -153,8 +153,8 @@ cljc.java_time.instant.adjust_into = (function cljc$java_time$instant$adjust_int
 return this4031.adjustInto(java_time_temporal_Temporal4032);
 });
 cljc.java_time.instant.with$ = (function cljc$java_time$instant$with(var_args){
-var G__34195 = arguments.length;
-switch (G__34195) {
+var G__34200 = arguments.length;
+switch (G__34200) {
 case 2:
 return cljc.java_time.instant.with$.cljs$core$IFn$_invoke$arity$2((arguments[(0)]),(arguments[(1)]));
 
@@ -180,8 +180,8 @@ return this4035.with(G__4036,G__4037);
 (cljc.java_time.instant.with$.cljs$lang$maxFixedArity = 3);
 
 cljc.java_time.instant.now = (function cljc$java_time$instant$now(var_args){
-var G__34197 = arguments.length;
-switch (G__34197) {
+var G__34202 = arguments.length;
+switch (G__34202) {
 case 0:
 return cljc.java_time.instant.now.cljs$core$IFn$_invoke$arity$0();
 

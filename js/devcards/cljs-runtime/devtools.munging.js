@@ -33,8 +33,8 @@ return null;
 });
 devtools.munging.get_fn_source_safely = (function devtools$munging$get_fn_source_safely(f){
 try{if(cljs.core.truth_("toString" in f)){
-var o__20851__auto__ = f;
-return (o__20851__auto__["toString"]).call(o__20851__auto__);
+var o__20750__auto__ = f;
+return (o__20750__auto__["toString"]).call(o__20750__auto__);
 } else {
 return "";
 }
@@ -53,8 +53,8 @@ return (f["cljs$lang$maxFixedArity"]);
 devtools.munging.get_type_name = (function devtools$munging$get_type_name(t){
 var sb = (new goog.string.StringBuffer());
 var writer = (new cljs.core.StringBufferWriter(sb));
-try{var o__20851__auto___23752 = t;
-(o__20851__auto___23752["cljs$lang$ctorPrWriter"]).call(o__20851__auto___23752,t,writer);
+try{var o__20750__auto___23752 = t;
+(o__20750__auto___23752["cljs$lang$ctorPrWriter"]).call(o__20750__auto___23752,t,writer);
 }catch (e23672){var __23753 = e23672;
 }
 writer.cljs$core$IWriter$_flush$arity$1(null);
@@ -76,13 +76,13 @@ if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.count(char$),(1))){
 throw (new Error("Assert failed: (= (count char) 1)"));
 }
 
-var char_code = (function (){var o__20851__auto__ = (new String(char$));
-return (o__20851__auto__["charCodeAt"]).call(o__20851__auto__,(0));
+var char_code = (function (){var o__20750__auto__ = (new String(char$));
+return (o__20750__auto__["charCodeAt"]).call(o__20750__auto__,(0));
 })();
 var num_code = (char_code - (48));
 var subscript_code = ((8320) + num_code);
-var o__20851__auto__ = String;
-return (o__20851__auto__["fromCharCode"]).call(o__20851__auto__,subscript_code);
+var o__20750__auto__ = String;
+return (o__20750__auto__["fromCharCode"]).call(o__20750__auto__,subscript_code);
 });
 /**
  * Given a subscript number converts it into a string representation consisting of unicode subscript characters (digits).
@@ -110,8 +110,8 @@ if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(cljs.core.count(char$),(1))){
 throw (new Error("Assert failed: (= (count char) 1)"));
 }
 
-var char_code = (function (){var o__20851__auto__ = (new String(char$));
-return (o__20851__auto__["charCodeAt"]).call(o__20851__auto__,(0));
+var char_code = (function (){var o__20750__auto__ = (new String(char$));
+return (o__20750__auto__["charCodeAt"]).call(o__20750__auto__,(0));
 })();
 var num_code = (char_code - (48));
 var superscript_code = (function (){var G__23673 = num_code;
@@ -133,8 +133,8 @@ return ((8304) + num_code);
 
 }
 })();
-var o__20851__auto__ = String;
-return (o__20851__auto__["fromCharCode"]).call(o__20851__auto__,superscript_code);
+var o__20750__auto__ = String;
+return (o__20750__auto__["fromCharCode"]).call(o__20750__auto__,superscript_code);
 });
 /**
  * Given a superscript number converts it into a string representation consisting of unicode superscript characters (digits).
@@ -203,7 +203,7 @@ return (((!((cljs.core.re_matches(/function\s*\(\s*\)\s*\{\s*\}\s*/,fn_source) =
  */
 devtools.munging.cljs_fn_QMARK_ = (function devtools$munging$cljs_fn_QMARK_(f){
 if(cljs.core.truth_((function (){try{return cljs.core.fn_QMARK_(f);
-}catch (e23674){var _e__20859__auto__ = e23674;
+}catch (e23674){var _e__20760__auto__ = e23674;
 return false;
 }})())){
 var name = (f[cljs.core.name]);
@@ -297,14 +297,14 @@ return null;
  */
 devtools.munging.detect_namespace_prefix = (function devtools$munging$detect_namespace_prefix(var_args){
 var args__4795__auto__ = [];
-var len__4789__auto___23761 = arguments.length;
-var i__4790__auto___23763 = (0);
+var len__4789__auto___23758 = arguments.length;
+var i__4790__auto___23760 = (0);
 while(true){
-if((i__4790__auto___23763 < len__4789__auto___23761)){
-args__4795__auto__.push((arguments[i__4790__auto___23763]));
+if((i__4790__auto___23760 < len__4789__auto___23758)){
+args__4795__auto__.push((arguments[i__4790__auto___23760]));
 
-var G__23765 = (i__4790__auto___23763 + (1));
-i__4790__auto___23763 = G__23765;
+var G__23761 = (i__4790__auto___23760 + (1));
+i__4790__auto___23760 = G__23761;
 continue;
 } else {
 }
@@ -335,10 +335,10 @@ var ns_name = clojure.string.join.cljs$core$IFn$_invoke$arity$2(".",remaining_to
 if(cljs.core.truth_((effective_detector.cljs$core$IFn$_invoke$arity$1 ? effective_detector.cljs$core$IFn$_invoke$arity$1(ns_name) : effective_detector.call(null,ns_name)))){
 return new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [ns_name,name_tokens], null);
 } else {
-var G__23768 = cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.last(remaining_tokens)], null),name_tokens);
-var G__23769 = cljs.core.butlast(remaining_tokens);
-name_tokens = G__23768;
-remaining_tokens = G__23769;
+var G__23766 = cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMPTY_NODE, [cljs.core.last(remaining_tokens)], null),name_tokens);
+var G__23767 = cljs.core.butlast(remaining_tokens);
+name_tokens = G__23766;
+remaining_tokens = G__23767;
 continue;
 }
 }
@@ -878,8 +878,8 @@ return fn_part;
 }
 });
 devtools.munging.get_basis = (function devtools$munging$get_basis(f){
-var o__20851__auto__ = f;
-return (o__20851__auto__["getBasis"]).call(o__20851__auto__);
+var o__20750__auto__ = f;
+return (o__20750__auto__["getBasis"]).call(o__20750__auto__);
 });
 /**
  * Given a Javascript constructor function tries to retrieve [ns name basis]. Returns nil if not a cljs type.
@@ -895,7 +895,7 @@ return and__4174__auto__;
 var type_name = devtools.munging.get_type_name(f);
 var parts = type_name.split(/\//);
 var basis = (function (){try{return devtools.munging.get_basis(f);
-}catch (e23738){var _e__20859__auto__ = e23738;
+}catch (e23738){var _e__20760__auto__ = e23738;
 return cljs.core.PersistentVector.EMPTY;
 }})();
 if((cljs.core.count(parts) <= (2))){

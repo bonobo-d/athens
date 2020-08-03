@@ -213,11 +213,11 @@ return new cljs.core.PersistentVector(null, 3, 5, cljs.core.PersistentVector.EMP
 (sablono.core.link_to48016.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(sablono.core.link_to48016.cljs$lang$applyTo = (function (seq48018){
-var G__48019 = cljs.core.first(seq48018);
-var seq48018__$1 = cljs.core.next(seq48018);
+(sablono.core.link_to48016.cljs$lang$applyTo = (function (seq48017){
+var G__48018 = cljs.core.first(seq48017);
+var seq48017__$1 = cljs.core.next(seq48017);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__48019,seq48018__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__48018,seq48017__$1);
 }));
 
 
@@ -261,11 +261,11 @@ return e_mail;
 (sablono.core.mail_to48026.cljs$lang$maxFixedArity = (1));
 
 /** @this {Function} */
-(sablono.core.mail_to48026.cljs$lang$applyTo = (function (seq48028){
-var G__48029 = cljs.core.first(seq48028);
-var seq48028__$1 = cljs.core.next(seq48028);
+(sablono.core.mail_to48026.cljs$lang$applyTo = (function (seq48027){
+var G__48028 = cljs.core.first(seq48027);
+var seq48027__$1 = cljs.core.next(seq48027);
 var self__4776__auto__ = this;
-return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__48029,seq48028__$1);
+return self__4776__auto__.cljs$core$IFn$_invoke$arity$variadic(G__48028,seq48027__$1);
 }));
 
 

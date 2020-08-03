@@ -401,14 +401,14 @@ return or__4185__auto__;
 return cljs.tools.reader.impl.errors.throw_invalid_number(rdr,s);
 }
 } else {
-var G__26765 = (function (){var G__26716 = sb;
+var G__26764 = (function (){var G__26716 = sb;
 G__26716.append(ch);
 
 return G__26716;
 })();
-var G__26766 = cljs.tools.reader.reader_types.read_char(rdr);
-sb = G__26765;
-ch = G__26766;
+var G__26765 = cljs.tools.reader.reader_types.read_char(rdr);
+sb = G__26764;
+ch = G__26765;
 continue;
 }
 break;
