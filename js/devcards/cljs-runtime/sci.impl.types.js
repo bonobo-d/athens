@@ -6,41 +6,47 @@ goog.require('cljs.core');
  */
 sci.impl.types.IBox = function(){};
 
-sci.impl.types.setVal = (function sci$impl$types$setVal(_this,_v){
-if((((!((_this == null)))) && ((!((_this.sci$impl$types$IBox$setVal$arity$2 == null)))))){
-return _this.sci$impl$types$IBox$setVal$arity$2(_this,_v);
+var sci$impl$types$IBox$setVal$dyn_57474 = (function (_this,_v){
+var x__4428__auto__ = (((_this == null))?null:_this);
+var m__4429__auto__ = (sci.impl.types.setVal[goog.typeOf(x__4428__auto__)]);
+if((!((m__4429__auto__ == null)))){
+return (m__4429__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4429__auto__.cljs$core$IFn$_invoke$arity$2(_this,_v) : m__4429__auto__.call(null,_this,_v));
 } else {
-var x__4487__auto__ = (((_this == null))?null:_this);
-var m__4488__auto__ = (sci.impl.types.setVal[goog.typeOf(x__4487__auto__)]);
-if((!((m__4488__auto__ == null)))){
-return (m__4488__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4488__auto__.cljs$core$IFn$_invoke$arity$2(_this,_v) : m__4488__auto__.call(null,_this,_v));
-} else {
-var m__4485__auto__ = (sci.impl.types.setVal["_"]);
-if((!((m__4485__auto__ == null)))){
-return (m__4485__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4485__auto__.cljs$core$IFn$_invoke$arity$2(_this,_v) : m__4485__auto__.call(null,_this,_v));
+var m__4426__auto__ = (sci.impl.types.setVal["_"]);
+if((!((m__4426__auto__ == null)))){
+return (m__4426__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4426__auto__.cljs$core$IFn$_invoke$arity$2(_this,_v) : m__4426__auto__.call(null,_this,_v));
 } else {
 throw cljs.core.missing_protocol("IBox.setVal",_this);
 }
 }
+});
+sci.impl.types.setVal = (function sci$impl$types$setVal(_this,_v){
+if((((!((_this == null)))) && ((!((_this.sci$impl$types$IBox$setVal$arity$2 == null)))))){
+return _this.sci$impl$types$IBox$setVal$arity$2(_this,_v);
+} else {
+return sci$impl$types$IBox$setVal$dyn_57474(_this,_v);
 }
 });
 
-sci.impl.types.getVal = (function sci$impl$types$getVal(_this){
-if((((!((_this == null)))) && ((!((_this.sci$impl$types$IBox$getVal$arity$1 == null)))))){
-return _this.sci$impl$types$IBox$getVal$arity$1(_this);
+var sci$impl$types$IBox$getVal$dyn_57475 = (function (_this){
+var x__4428__auto__ = (((_this == null))?null:_this);
+var m__4429__auto__ = (sci.impl.types.getVal[goog.typeOf(x__4428__auto__)]);
+if((!((m__4429__auto__ == null)))){
+return (m__4429__auto__.cljs$core$IFn$_invoke$arity$1 ? m__4429__auto__.cljs$core$IFn$_invoke$arity$1(_this) : m__4429__auto__.call(null,_this));
 } else {
-var x__4487__auto__ = (((_this == null))?null:_this);
-var m__4488__auto__ = (sci.impl.types.getVal[goog.typeOf(x__4487__auto__)]);
-if((!((m__4488__auto__ == null)))){
-return (m__4488__auto__.cljs$core$IFn$_invoke$arity$1 ? m__4488__auto__.cljs$core$IFn$_invoke$arity$1(_this) : m__4488__auto__.call(null,_this));
-} else {
-var m__4485__auto__ = (sci.impl.types.getVal["_"]);
-if((!((m__4485__auto__ == null)))){
-return (m__4485__auto__.cljs$core$IFn$_invoke$arity$1 ? m__4485__auto__.cljs$core$IFn$_invoke$arity$1(_this) : m__4485__auto__.call(null,_this));
+var m__4426__auto__ = (sci.impl.types.getVal["_"]);
+if((!((m__4426__auto__ == null)))){
+return (m__4426__auto__.cljs$core$IFn$_invoke$arity$1 ? m__4426__auto__.cljs$core$IFn$_invoke$arity$1(_this) : m__4426__auto__.call(null,_this));
 } else {
 throw cljs.core.missing_protocol("IBox.getVal",_this);
 }
 }
+});
+sci.impl.types.getVal = (function sci$impl$types$getVal(_this){
+if((((!((_this == null)))) && ((!((_this.sci$impl$types$IBox$getVal$arity$1 == null)))))){
+return _this.sci$impl$types$IBox$getVal$arity$1(_this);
+} else {
+return sci$impl$types$IBox$getVal$dyn_57475(_this);
 }
 });
 
@@ -68,8 +74,8 @@ return new cljs.core.PersistentVector(null, 1, 5, cljs.core.PersistentVector.EMP
 
 (sci.impl.types.EvalVar.cljs$lang$ctorStr = "sci.impl.types/EvalVar");
 
-(sci.impl.types.EvalVar.cljs$lang$ctorPrWriter = (function (this__4428__auto__,writer__4429__auto__,opt__4430__auto__){
-return cljs.core._write(writer__4429__auto__,"sci.impl.types/EvalVar");
+(sci.impl.types.EvalVar.cljs$lang$ctorPrWriter = (function (this__4369__auto__,writer__4370__auto__,opt__4371__auto__){
+return cljs.core._write(writer__4370__auto__,"sci.impl.types/EvalVar");
 }));
 
 /**

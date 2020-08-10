@@ -4,14 +4,7 @@ goog.loadModule(function(exports) {
   goog.module.declareLegacyNamespace();
   /** @const */ var asserts = goog.require("goog.asserts");
   /** @const */ var reflect = goog.require("goog.reflect");
-  /**
-   * @final
-   * @struct
-   * @constructor
-   * @param {number} low
-   * @param {number} high
-   */
-  var Long = function(low, high) {
+  /** @final @constructor */ var Long = function(low, high) {
     /** @private @const @type {number} */ this.low_ = low | 0;
     /** @private @const @type {number} */ this.high_ = high | 0;
   };

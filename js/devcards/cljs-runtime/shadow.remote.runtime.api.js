@@ -6,74 +6,83 @@ goog.require('cljs.core');
  */
 shadow.remote.runtime.api.IRuntime = function(){};
 
-shadow.remote.runtime.api.relay_msg = (function shadow$remote$runtime$api$relay_msg(runtime,msg){
-if((((!((runtime == null)))) && ((!((runtime.shadow$remote$runtime$api$IRuntime$relay_msg$arity$2 == null)))))){
-return runtime.shadow$remote$runtime$api$IRuntime$relay_msg$arity$2(runtime,msg);
+var shadow$remote$runtime$api$IRuntime$relay_msg$dyn_59707 = (function (runtime,msg){
+var x__4428__auto__ = (((runtime == null))?null:runtime);
+var m__4429__auto__ = (shadow.remote.runtime.api.relay_msg[goog.typeOf(x__4428__auto__)]);
+if((!((m__4429__auto__ == null)))){
+return (m__4429__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4429__auto__.cljs$core$IFn$_invoke$arity$2(runtime,msg) : m__4429__auto__.call(null,runtime,msg));
 } else {
-var x__4487__auto__ = (((runtime == null))?null:runtime);
-var m__4488__auto__ = (shadow.remote.runtime.api.relay_msg[goog.typeOf(x__4487__auto__)]);
-if((!((m__4488__auto__ == null)))){
-return (m__4488__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4488__auto__.cljs$core$IFn$_invoke$arity$2(runtime,msg) : m__4488__auto__.call(null,runtime,msg));
-} else {
-var m__4485__auto__ = (shadow.remote.runtime.api.relay_msg["_"]);
-if((!((m__4485__auto__ == null)))){
-return (m__4485__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4485__auto__.cljs$core$IFn$_invoke$arity$2(runtime,msg) : m__4485__auto__.call(null,runtime,msg));
+var m__4426__auto__ = (shadow.remote.runtime.api.relay_msg["_"]);
+if((!((m__4426__auto__ == null)))){
+return (m__4426__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4426__auto__.cljs$core$IFn$_invoke$arity$2(runtime,msg) : m__4426__auto__.call(null,runtime,msg));
 } else {
 throw cljs.core.missing_protocol("IRuntime.relay-msg",runtime);
 }
 }
+});
+shadow.remote.runtime.api.relay_msg = (function shadow$remote$runtime$api$relay_msg(runtime,msg){
+if((((!((runtime == null)))) && ((!((runtime.shadow$remote$runtime$api$IRuntime$relay_msg$arity$2 == null)))))){
+return runtime.shadow$remote$runtime$api$IRuntime$relay_msg$arity$2(runtime,msg);
+} else {
+return shadow$remote$runtime$api$IRuntime$relay_msg$dyn_59707(runtime,msg);
 }
 });
 
-shadow.remote.runtime.api.add_extension = (function shadow$remote$runtime$api$add_extension(runtime,key,spec){
-if((((!((runtime == null)))) && ((!((runtime.shadow$remote$runtime$api$IRuntime$add_extension$arity$3 == null)))))){
-return runtime.shadow$remote$runtime$api$IRuntime$add_extension$arity$3(runtime,key,spec);
+var shadow$remote$runtime$api$IRuntime$add_extension$dyn_59708 = (function (runtime,key,spec){
+var x__4428__auto__ = (((runtime == null))?null:runtime);
+var m__4429__auto__ = (shadow.remote.runtime.api.add_extension[goog.typeOf(x__4428__auto__)]);
+if((!((m__4429__auto__ == null)))){
+return (m__4429__auto__.cljs$core$IFn$_invoke$arity$3 ? m__4429__auto__.cljs$core$IFn$_invoke$arity$3(runtime,key,spec) : m__4429__auto__.call(null,runtime,key,spec));
 } else {
-var x__4487__auto__ = (((runtime == null))?null:runtime);
-var m__4488__auto__ = (shadow.remote.runtime.api.add_extension[goog.typeOf(x__4487__auto__)]);
-if((!((m__4488__auto__ == null)))){
-return (m__4488__auto__.cljs$core$IFn$_invoke$arity$3 ? m__4488__auto__.cljs$core$IFn$_invoke$arity$3(runtime,key,spec) : m__4488__auto__.call(null,runtime,key,spec));
-} else {
-var m__4485__auto__ = (shadow.remote.runtime.api.add_extension["_"]);
-if((!((m__4485__auto__ == null)))){
-return (m__4485__auto__.cljs$core$IFn$_invoke$arity$3 ? m__4485__auto__.cljs$core$IFn$_invoke$arity$3(runtime,key,spec) : m__4485__auto__.call(null,runtime,key,spec));
+var m__4426__auto__ = (shadow.remote.runtime.api.add_extension["_"]);
+if((!((m__4426__auto__ == null)))){
+return (m__4426__auto__.cljs$core$IFn$_invoke$arity$3 ? m__4426__auto__.cljs$core$IFn$_invoke$arity$3(runtime,key,spec) : m__4426__auto__.call(null,runtime,key,spec));
 } else {
 throw cljs.core.missing_protocol("IRuntime.add-extension",runtime);
 }
 }
+});
+shadow.remote.runtime.api.add_extension = (function shadow$remote$runtime$api$add_extension(runtime,key,spec){
+if((((!((runtime == null)))) && ((!((runtime.shadow$remote$runtime$api$IRuntime$add_extension$arity$3 == null)))))){
+return runtime.shadow$remote$runtime$api$IRuntime$add_extension$arity$3(runtime,key,spec);
+} else {
+return shadow$remote$runtime$api$IRuntime$add_extension$dyn_59708(runtime,key,spec);
 }
 });
 
-shadow.remote.runtime.api.del_extension = (function shadow$remote$runtime$api$del_extension(runtime,key){
-if((((!((runtime == null)))) && ((!((runtime.shadow$remote$runtime$api$IRuntime$del_extension$arity$2 == null)))))){
-return runtime.shadow$remote$runtime$api$IRuntime$del_extension$arity$2(runtime,key);
+var shadow$remote$runtime$api$IRuntime$del_extension$dyn_59709 = (function (runtime,key){
+var x__4428__auto__ = (((runtime == null))?null:runtime);
+var m__4429__auto__ = (shadow.remote.runtime.api.del_extension[goog.typeOf(x__4428__auto__)]);
+if((!((m__4429__auto__ == null)))){
+return (m__4429__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4429__auto__.cljs$core$IFn$_invoke$arity$2(runtime,key) : m__4429__auto__.call(null,runtime,key));
 } else {
-var x__4487__auto__ = (((runtime == null))?null:runtime);
-var m__4488__auto__ = (shadow.remote.runtime.api.del_extension[goog.typeOf(x__4487__auto__)]);
-if((!((m__4488__auto__ == null)))){
-return (m__4488__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4488__auto__.cljs$core$IFn$_invoke$arity$2(runtime,key) : m__4488__auto__.call(null,runtime,key));
-} else {
-var m__4485__auto__ = (shadow.remote.runtime.api.del_extension["_"]);
-if((!((m__4485__auto__ == null)))){
-return (m__4485__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4485__auto__.cljs$core$IFn$_invoke$arity$2(runtime,key) : m__4485__auto__.call(null,runtime,key));
+var m__4426__auto__ = (shadow.remote.runtime.api.del_extension["_"]);
+if((!((m__4426__auto__ == null)))){
+return (m__4426__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4426__auto__.cljs$core$IFn$_invoke$arity$2(runtime,key) : m__4426__auto__.call(null,runtime,key));
 } else {
 throw cljs.core.missing_protocol("IRuntime.del-extension",runtime);
 }
 }
+});
+shadow.remote.runtime.api.del_extension = (function shadow$remote$runtime$api$del_extension(runtime,key){
+if((((!((runtime == null)))) && ((!((runtime.shadow$remote$runtime$api$IRuntime$del_extension$arity$2 == null)))))){
+return runtime.shadow$remote$runtime$api$IRuntime$del_extension$arity$2(runtime,key);
+} else {
+return shadow$remote$runtime$api$IRuntime$del_extension$dyn_59709(runtime,key);
 }
 });
 
-shadow.remote.runtime.api.reply = (function shadow$remote$runtime$api$reply(runtime,p__61124,res){
-var map__61125 = p__61124;
-var map__61125__$1 = (((((!((map__61125 == null))))?(((((map__61125.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__61125.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__61125):map__61125);
-var mid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61125__$1,new cljs.core.Keyword(null,"mid","mid",-2123385246));
-var tid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__61125__$1,new cljs.core.Keyword(null,"tid","tid",-901350880));
-var res__$1 = (function (){var G__61127 = res;
-var G__61127__$1 = (cljs.core.truth_(mid)?cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__61127,new cljs.core.Keyword(null,"mid","mid",-2123385246),mid):G__61127);
+shadow.remote.runtime.api.reply = (function shadow$remote$runtime$api$reply(runtime,p__59703,res){
+var map__59704 = p__59703;
+var map__59704__$1 = (((((!((map__59704 == null))))?(((((map__59704.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59704.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59704):map__59704);
+var mid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59704__$1,new cljs.core.Keyword(null,"mid","mid",-2123385246));
+var tid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59704__$1,new cljs.core.Keyword(null,"tid","tid",-901350880));
+var res__$1 = (function (){var G__59706 = res;
+var G__59706__$1 = (cljs.core.truth_(mid)?cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__59706,new cljs.core.Keyword(null,"mid","mid",-2123385246),mid):G__59706);
 if(cljs.core.truth_(tid)){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__61127__$1,new cljs.core.Keyword(null,"tid","tid",-901350880),tid);
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__59706__$1,new cljs.core.Keyword(null,"tid","tid",-901350880),tid);
 } else {
-return G__61127__$1;
+return G__59706__$1;
 }
 })();
 return shadow.remote.runtime.api.relay_msg(runtime,res__$1);
@@ -84,6 +93,26 @@ return shadow.remote.runtime.api.relay_msg(runtime,res__$1);
  */
 shadow.remote.runtime.api.Inspectable = function(){};
 
+var shadow$remote$runtime$api$Inspectable$describe$dyn_59710 = (function (thing,opts){
+var x__4428__auto__ = (((thing == null))?null:thing);
+var m__4429__auto__ = (shadow.remote.runtime.api.describe[goog.typeOf(x__4428__auto__)]);
+if((!((m__4429__auto__ == null)))){
+return (m__4429__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4429__auto__.cljs$core$IFn$_invoke$arity$2(thing,opts) : m__4429__auto__.call(null,thing,opts));
+} else {
+var temp__5733__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.meta(thing),cljs.core.with_meta(new cljs.core.Symbol("shadow.remote.runtime.api","describe","shadow.remote.runtime.api/describe",1388020131,null),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword("cljs.analyzer","no-resolve","cljs.analyzer/no-resolve",-1872351017),true], null)));
+if(temp__5733__auto__){
+var meta_impl__4427__auto__ = temp__5733__auto__;
+return (meta_impl__4427__auto__.cljs$core$IFn$_invoke$arity$2 ? meta_impl__4427__auto__.cljs$core$IFn$_invoke$arity$2(thing,opts) : meta_impl__4427__auto__.call(null,thing,opts));
+} else {
+var m__4426__auto__ = (shadow.remote.runtime.api.describe["_"]);
+if((!((m__4426__auto__ == null)))){
+return (m__4426__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4426__auto__.cljs$core$IFn$_invoke$arity$2(thing,opts) : m__4426__auto__.call(null,thing,opts));
+} else {
+throw cljs.core.missing_protocol("Inspectable.describe",thing);
+}
+}
+}
+});
 /**
  * returns a map descriptor that tells system how to handle things further
  */
@@ -91,24 +120,7 @@ shadow.remote.runtime.api.describe = (function shadow$remote$runtime$api$describ
 if((((!((thing == null)))) && ((!((thing.shadow$remote$runtime$api$Inspectable$describe$arity$2 == null)))))){
 return thing.shadow$remote$runtime$api$Inspectable$describe$arity$2(thing,opts);
 } else {
-var x__4487__auto__ = (((thing == null))?null:thing);
-var m__4488__auto__ = (shadow.remote.runtime.api.describe[goog.typeOf(x__4487__auto__)]);
-if((!((m__4488__auto__ == null)))){
-return (m__4488__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4488__auto__.cljs$core$IFn$_invoke$arity$2(thing,opts) : m__4488__auto__.call(null,thing,opts));
-} else {
-var temp__5733__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$2(cljs.core.meta(thing),new cljs.core.Symbol("shadow.remote.runtime.api","describe","shadow.remote.runtime.api/describe",1388020131,null));
-if(temp__5733__auto__){
-var meta_impl__4486__auto__ = temp__5733__auto__;
-return (meta_impl__4486__auto__.cljs$core$IFn$_invoke$arity$2 ? meta_impl__4486__auto__.cljs$core$IFn$_invoke$arity$2(thing,opts) : meta_impl__4486__auto__.call(null,thing,opts));
-} else {
-var m__4485__auto__ = (shadow.remote.runtime.api.describe["_"]);
-if((!((m__4485__auto__ == null)))){
-return (m__4485__auto__.cljs$core$IFn$_invoke$arity$2 ? m__4485__auto__.cljs$core$IFn$_invoke$arity$2(thing,opts) : m__4485__auto__.call(null,thing,opts));
-} else {
-throw cljs.core.missing_protocol("Inspectable.describe",thing);
-}
-}
-}
+return shadow$remote$runtime$api$Inspectable$describe$dyn_59710(thing,opts);
 }
 });
 

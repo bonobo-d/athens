@@ -13,11 +13,11 @@ stylefy.impl.cache.now_in_seconds = (function stylefy$impl$cache$now_in_seconds(
 return Math.floor((Date.now() / (1000)));
 });
 stylefy.impl.cache.cache_expired_QMARK_ = (function stylefy$impl$cache$cache_expired_QMARK_(cache_created,expiration_age,now){
-if(cljs.core.truth_((function (){var and__4174__auto__ = cache_created;
-if(cljs.core.truth_(and__4174__auto__)){
+if(cljs.core.truth_((function (){var and__4115__auto__ = cache_created;
+if(cljs.core.truth_(and__4115__auto__)){
 return expiration_age;
 } else {
-return and__4174__auto__;
+return and__4115__auto__;
 }
 })())){
 return ((cache_created + expiration_age) < now);
@@ -42,8 +42,8 @@ return null;
 }
 });
 stylefy.impl.cache.set_cache_created_time = (function stylefy$impl$cache$set_cache_created_time(var_args){
-var G__43533 = arguments.length;
-switch (G__43533) {
+var G__42585 = arguments.length;
+switch (G__42585) {
 case 1:
 return stylefy.impl.cache.set_cache_created_time.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -69,8 +69,8 @@ return window.localStorage.setItem(stylefy.impl.cache.cache_key_created(instance
 (stylefy.impl.cache.set_cache_created_time.cljs$lang$maxFixedArity = 2);
 
 stylefy.impl.cache.clear_styles = (function stylefy$impl$cache$clear_styles(var_args){
-var G__43535 = arguments.length;
-switch (G__43535) {
+var G__42587 = arguments.length;
+switch (G__42587) {
 case 0:
 return stylefy.impl.cache.clear_styles.cljs$core$IFn$_invoke$arity$0();
 
@@ -96,8 +96,8 @@ return window.localStorage.setItem(stylefy.impl.cache.cache_key_styles(instance_
 (stylefy.impl.cache.clear_styles.cljs$lang$maxFixedArity = 1);
 
 stylefy.impl.cache.use_caching_BANG_ = (function stylefy$impl$cache$use_caching_BANG_(var_args){
-var G__43540 = arguments.length;
-switch (G__43540) {
+var G__42590 = arguments.length;
+switch (G__42590) {
 case 1:
 return stylefy.impl.cache.use_caching_BANG_.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -124,9 +124,9 @@ if(cljs.core.truth_(stylefy.impl.cache.read_cache_value(stylefy.impl.cache.cache
 stylefy.impl.cache.set_cache_created_time.cljs$core$IFn$_invoke$arity$2(stylefy.impl.cache.now_in_seconds(),instance_id);
 }
 
-if(stylefy.impl.cache.cache_expired_QMARK_(stylefy.impl.cache.read_cache_value(stylefy.impl.cache.cache_key_created(instance_id)),(function (){var or__4185__auto__ = new cljs.core.Keyword(null,"expires","expires",1393008816).cljs$core$IFn$_invoke$arity$1(cache_options);
-if(cljs.core.truth_(or__4185__auto__)){
-return or__4185__auto__;
+if(stylefy.impl.cache.cache_expired_QMARK_(stylefy.impl.cache.read_cache_value(stylefy.impl.cache.cache_key_created(instance_id)),(function (){var or__4126__auto__ = new cljs.core.Keyword(null,"expires","expires",1393008816).cljs$core$IFn$_invoke$arity$1(cache_options);
+if(cljs.core.truth_(or__4126__auto__)){
+return or__4126__auto__;
 } else {
 return stylefy.impl.cache.default_cache_expiration_time_s;
 }
@@ -146,8 +146,8 @@ return null;
  *   Throws QUOTA_EXCEEDED_ERR if the storage is full.
  */
 stylefy.impl.cache.cache_styles = (function stylefy$impl$cache$cache_styles(var_args){
-var G__43542 = arguments.length;
-switch (G__43542) {
+var G__42594 = arguments.length;
+switch (G__42594) {
 case 1:
 return stylefy.impl.cache.cache_styles.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 
@@ -167,11 +167,11 @@ return stylefy.impl.cache.cache_styles.cljs$core$IFn$_invoke$arity$2(styles,null
 }));
 
 (stylefy.impl.cache.cache_styles.cljs$core$IFn$_invoke$arity$2 = (function (styles,instance_id){
-if(cljs.core.truth_((function (){var and__4174__auto__ = cljs.core.deref(stylefy.impl.cache.cache_styles_QMARK_);
-if(cljs.core.truth_(and__4174__auto__)){
+if(cljs.core.truth_((function (){var and__4115__auto__ = cljs.core.deref(stylefy.impl.cache.cache_styles_QMARK_);
+if(cljs.core.truth_(and__4115__auto__)){
 return cljs.core.map_QMARK_(styles);
 } else {
-return and__4174__auto__;
+return and__4115__auto__;
 }
 })())){
 return window.localStorage.setItem(stylefy.impl.cache.cache_key_styles(instance_id),styles);

@@ -3,20 +3,20 @@ goog.require('cljs.core');
 goog.require('cljs.spec.alpha');
 if((typeof spec_tools !== 'undefined') && (typeof spec_tools.form !== 'undefined') && (typeof spec_tools.form.resolve_form !== 'undefined')){
 } else {
-spec_tools.form.resolve_form = (function (){var method_table__4672__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
-var prefer_table__4673__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
-var method_cache__4674__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
-var cached_hierarchy__4675__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
-var hierarchy__4676__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"default","default",-1987822328),new cljs.core.Keyword("spec-tools.form","default","spec-tools.form/default",501647025)], null),new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),(function (){var fexpr__52437 = cljs.core.get_global_hierarchy;
-return (fexpr__52437.cljs$core$IFn$_invoke$arity$0 ? fexpr__52437.cljs$core$IFn$_invoke$arity$0() : fexpr__52437.call(null));
+spec_tools.form.resolve_form = (function (){var method_table__4619__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
+var prefer_table__4620__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
+var method_cache__4621__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
+var cached_hierarchy__4622__auto__ = cljs.core.atom.cljs$core$IFn$_invoke$arity$1(cljs.core.PersistentArrayMap.EMPTY);
+var hierarchy__4623__auto__ = cljs.core.get.cljs$core$IFn$_invoke$arity$3(new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"default","default",-1987822328),new cljs.core.Keyword("spec-tools.form","default","spec-tools.form/default",501647025)], null),new cljs.core.Keyword(null,"hierarchy","hierarchy",-1053470341),(function (){var fexpr__51399 = cljs.core.get_global_hierarchy;
+return (fexpr__51399.cljs$core$IFn$_invoke$arity$0 ? fexpr__51399.cljs$core$IFn$_invoke$arity$0() : fexpr__51399.call(null));
 })());
 return (new cljs.core.MultiFn(cljs.core.symbol.cljs$core$IFn$_invoke$arity$2("spec-tools.form","resolve-form"),(function (x){
 if(((cljs.core.qualified_keyword_QMARK_(x)) || (cljs.core.seq_QMARK_(x)) || (cljs.core.set_QMARK_(x)))){
 return new cljs.core.Keyword("spec-tools.form","identity","spec-tools.form/identity",-179136630);
 } else {
-if(cljs.core.truth_((function (){var or__4185__auto__ = cljs.spec.alpha.spec_QMARK_(x);
-if(cljs.core.truth_(or__4185__auto__)){
-return or__4185__auto__;
+if(cljs.core.truth_((function (){var or__4126__auto__ = cljs.spec.alpha.spec_QMARK_(x);
+if(cljs.core.truth_(or__4126__auto__)){
+return or__4126__auto__;
 } else {
 return cljs.spec.alpha.regex_QMARK_(x);
 }
@@ -27,7 +27,7 @@ return x;
 
 }
 }
-}),new cljs.core.Keyword("spec-tools.form","default","spec-tools.form/default",501647025),hierarchy__4676__auto__,method_table__4672__auto__,prefer_table__4673__auto__,method_cache__4674__auto__,cached_hierarchy__4675__auto__));
+}),new cljs.core.Keyword("spec-tools.form","default","spec-tools.form/default",501647025),hierarchy__4623__auto__,method_table__4619__auto__,prefer_table__4620__auto__,method_cache__4621__auto__,cached_hierarchy__4622__auto__));
 })();
 }
 spec_tools.form.resolve_form.cljs$core$IMultiFn$_add_method$arity$3(null,new cljs.core.Keyword("spec-tools.form","spec","spec-tools.form/spec",-2137946288),(function (x){
