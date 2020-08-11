@@ -2,8 +2,8 @@ goog.provide('reitit.exception');
 goog.require('cljs.core');
 goog.require('clojure.string');
 reitit.exception.fail_BANG_ = (function reitit$exception$fail_BANG_(var_args){
-var G__53041 = arguments.length;
-switch (G__53041) {
+var G__53038 = arguments.length;
+switch (G__53038) {
 case 1:
 return reitit.exception.fail_BANG_.cljs$core$IFn$_invoke$arity$1((arguments[(0)]));
 

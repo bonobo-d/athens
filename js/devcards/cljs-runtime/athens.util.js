@@ -41,6 +41,13 @@ var el_box = element.getBoundingClientRect();
 var cont_box = container.getBoundingClientRect();
 return (((el_box.bottom > cont_box.bottom)) || ((el_box.top < cont_box.top)));
 });
+athens.util.scroll_into_view = (function athens$util$scroll_into_view(element,container,align_top_QMARK_){
+if(athens.util.is_beyond_rect_QMARK_(element,container)){
+return element.scrollIntoView(align_top_QMARK_,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"behavior","behavior",1202392908),"auto"], null));
+} else {
+return null;
+}
+});
 athens.util.date_col_format = tick.alpha.api.formatter.cljs$core$IFn$_invoke$arity$1("LLLL dd, yyyy h':'mma");
 athens.util.US_format = tick.alpha.api.formatter.cljs$core$IFn$_invoke$arity$1("MM-dd-yyyy");
 athens.util.title_format = tick.alpha.api.formatter.cljs$core$IFn$_invoke$arity$1("LLLL dd, yyyy");
@@ -51,8 +58,8 @@ return (new Date()).getTime();
  * Returns today's date or a date OFFSET days before today
  */
 athens.util.get_day = (function athens$util$get_day(var_args){
-var G__38250 = arguments.length;
-switch (G__38250) {
+var G__38243 = arguments.length;
+switch (G__38243) {
 case 0:
 return athens.util.get_day.cljs$core$IFn$_invoke$arity$0();
 
@@ -90,8 +97,8 @@ return clojure.string.replace(x__$3,/PM/,"pm");
 }
 });
 athens.util.regex_esc_char_map = (function (){var esc_chars = "()*&^%$#![]";
-return cljs.core.zipmap(esc_chars,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__38251_SHARP_){
-return ["\\",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__38251_SHARP_)].join('');
+return cljs.core.zipmap(esc_chars,cljs.core.map.cljs$core$IFn$_invoke$arity$2((function (p1__38246_SHARP_){
+return ["\\",cljs.core.str.cljs$core$IFn$_invoke$arity$1(p1__38246_SHARP_)].join('');
 }),esc_chars));
 })();
 /**

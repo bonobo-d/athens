@@ -19,17 +19,17 @@ var eid = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25832,(3),null);
 var analysis = posh.lib.pull_analyze.pull_analyze(dcfg,cljs.core.cons(new cljs.core.Keyword(null,"patterns","patterns",1164082024),retrieve),posh.lib.db.poshdb__GT_analyze_db(posh_tree,poshdb),pull_pattern,eid);
 return cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([analysis,new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"reload-patterns","reload-patterns",-1261746666),new cljs.core.Keyword(null,"patterns","patterns",1164082024).cljs$core$IFn$_invoke$arity$1(analysis),new cljs.core.Keyword(null,"reload-fn","reload-fn",-1150160860),posh.lib.update.update_pull], null)], 0)),new cljs.core.Keyword(null,"patterns","patterns",1164082024));
 });
-posh.lib.update.update_filter_pull = (function posh$lib$update$update_filter_pull(p__25837,storage_key){
-var map__25838 = p__25837;
-var map__25838__$1 = (((((!((map__25838 == null))))?(((((map__25838.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__25838.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__25838):map__25838);
-var posh_tree = map__25838__$1;
-var dcfg = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__25838__$1,new cljs.core.Keyword(null,"dcfg","dcfg",-880371016));
-var retrieve = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__25838__$1,new cljs.core.Keyword(null,"retrieve","retrieve",-657129560));
-var vec__25840 = storage_key;
-var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25840,(0),null);
-var poshdb = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25840,(1),null);
-var pull_pattern = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25840,(2),null);
-var eid = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25840,(3),null);
+posh.lib.update.update_filter_pull = (function posh$lib$update$update_filter_pull(p__25835,storage_key){
+var map__25836 = p__25835;
+var map__25836__$1 = (((((!((map__25836 == null))))?(((((map__25836.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__25836.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__25836):map__25836);
+var posh_tree = map__25836__$1;
+var dcfg = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__25836__$1,new cljs.core.Keyword(null,"dcfg","dcfg",-880371016));
+var retrieve = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__25836__$1,new cljs.core.Keyword(null,"retrieve","retrieve",-657129560));
+var vec__25838 = storage_key;
+var _ = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25838,(0),null);
+var poshdb = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25838,(1),null);
+var pull_pattern = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25838,(2),null);
+var eid = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__25838,(3),null);
 var analysis = posh.lib.pull_analyze.pull_analyze(dcfg,cljs.core.concat.cljs$core$IFn$_invoke$arity$2(new cljs.core.PersistentVector(null, 2, 5, cljs.core.PersistentVector.EMPTY_NODE, [new cljs.core.Keyword(null,"patterns","patterns",1164082024),new cljs.core.Keyword(null,"ref-patterns","ref-patterns",77228294)], null),retrieve),posh.lib.db.poshdb__GT_analyze_db(posh_tree,poshdb),pull_pattern,eid);
 return cljs.core.dissoc.cljs$core$IFn$_invoke$arity$variadic(cljs.core.merge.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([analysis,new cljs.core.PersistentArrayMap(null, 3, [new cljs.core.Keyword(null,"pass-patterns","pass-patterns",1090887263),cljs.core.first(cljs.core.vals(new cljs.core.Keyword(null,"patterns","patterns",1164082024).cljs$core$IFn$_invoke$arity$1(analysis))),new cljs.core.Keyword(null,"reload-patterns","reload-patterns",-1261746666),new cljs.core.Keyword(null,"ref-patterns","ref-patterns",77228294).cljs$core$IFn$_invoke$arity$1(analysis),new cljs.core.Keyword(null,"reload-fn","reload-fn",-1150160860),posh.lib.update.update_filter_pull], null)], 0)),new cljs.core.Keyword(null,"patterns","patterns",1164082024),cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2([new cljs.core.Keyword(null,"ref-patterns","ref-patterns",77228294)], 0));
 });

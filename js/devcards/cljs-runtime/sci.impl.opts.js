@@ -87,10 +87,10 @@ if(cljs.core.truth_(temp__5733__auto__)){
 var vec__58401 = temp__5733__auto__;
 var sym = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58401,(0),null);
 var class_opts = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__58401,(1),null);
-var G__58420 = cljs.core.assoc_BANG_.cljs$core$IFn$_invoke$arity$3(class__GT_opts,sym,((cljs.core.map_QMARK_(class_opts))?class_opts:new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"class","class",-2030961996),class_opts], null)));
-var G__58421 = cljs.core.rest(kvs);
-class__GT_opts = G__58420;
-kvs = G__58421;
+var G__58419 = cljs.core.assoc_BANG_.cljs$core$IFn$_invoke$arity$3(class__GT_opts,sym,((cljs.core.map_QMARK_(class_opts))?class_opts:new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"class","class",-2030961996),class_opts], null)));
+var G__58420 = cljs.core.rest(kvs);
+class__GT_opts = G__58419;
+kvs = G__58420;
 continue;
 } else {
 return new cljs.core.PersistentArrayMap(null, 2, [new cljs.core.Keyword(null,"public-class","public-class",1127293019),new cljs.core.Keyword(null,"public-class","public-class",1127293019).cljs$core$IFn$_invoke$arity$1(classes),new cljs.core.Keyword(null,"class->opts","class->opts",2061906477),cljs.core.persistent_BANG_(class__GT_opts)], null);

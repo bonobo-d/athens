@@ -110,11 +110,7 @@ var cur_index = new cljs.core.Keyword(null,"index","index",-1531685915).cljs$cor
 var input_el = e.target;
 var result_el = input_el.closest("div.athena").lastElementChild;
 var next_el = cljs.core.nth.cljs$core$IFn$_invoke$arity$2(cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(result_el.children),cur_index);
-if(athens.util.is_beyond_rect_QMARK_(next_el,result_el)){
-return next_el.scrollIntoView(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(cur_index,(cljs.core.count(results) - (1))),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"behavior","behavior",1202392908),"auto"], null));
-} else {
-return null;
-}
+return athens.util.scroll_into_view(next_el,result_el,cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(cur_index,(cljs.core.count(results) - (1))));
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key,goog.events.KeyCodes.DOWN)){
 e.preventDefault();
@@ -131,11 +127,7 @@ var cur_index = new cljs.core.Keyword(null,"index","index",-1531685915).cljs$cor
 var input_el = e.target;
 var result_el = input_el.closest("div.athena").lastElementChild;
 var next_el = cljs.core.nth.cljs$core$IFn$_invoke$arity$2(cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(result_el.children),cur_index);
-if(athens.util.is_beyond_rect_QMARK_(next_el,result_el)){
-return next_el.scrollIntoView((cur_index === (0)),new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"behavior","behavior",1202392908),"auto"], null));
-} else {
-return null;
-}
+return athens.util.scroll_into_view(next_el,result_el,(cur_index === (0)));
 } else {
 return null;
 

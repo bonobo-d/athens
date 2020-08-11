@@ -153,11 +153,7 @@ cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.update,new cl
 var cur_index = new cljs.core.Keyword("search","index","search/index",1990835117).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(state));
 var container_el = goog.dom.getElement("slash-menu-container");
 var next_el = cljs.core.nth.cljs$core$IFn$_invoke$arity$2(cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(container_el.children),cur_index);
-if(athens.util.is_beyond_rect_QMARK_(next_el,container_el.parentNode)){
-return next_el.scrollIntoView(false,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"behavior","behavior",1202392908),"auto"], null));
-} else {
-return null;
-}
+return athens.util.scroll_into_view(next_el,container_el.parentNode,false);
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(new cljs.core.Keyword(null,"down","down",1565245570),direction)){
 e.preventDefault();
@@ -167,11 +163,7 @@ cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.update,new cl
 var cur_index = new cljs.core.Keyword("search","index","search/index",1990835117).cljs$core$IFn$_invoke$arity$1(cljs.core.deref(state));
 var container_el = goog.dom.getElement("slash-menu-container");
 var next_el = cljs.core.nth.cljs$core$IFn$_invoke$arity$2(cljs.core.array_seq.cljs$core$IFn$_invoke$arity$1(container_el.children),cur_index);
-if(athens.util.is_beyond_rect_QMARK_(next_el,container_el)){
-return next_el.scrollIntoView(false,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"behavior","behavior",1202392908),"auto"], null));
-} else {
-return null;
-}
+return athens.util.scroll_into_view(next_el,container_el,false);
 } else {
 return null;
 }
