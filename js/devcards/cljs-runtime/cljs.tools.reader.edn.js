@@ -75,14 +75,14 @@ return cljs.core.str.cljs$core$IFn$_invoke$arity$1(sb);
 if(cljs.tools.reader.edn.not_constituent_QMARK_(ch)){
 return cljs.tools.reader.impl.errors.throw_bad_char(rdr,kind,ch);
 } else {
-var G__26431 = (function (){var G__26370 = sb;
+var G__26432 = (function (){var G__26370 = sb;
 G__26370.append(cljs.tools.reader.reader_types.read_char(rdr));
 
 return G__26370;
 })();
-var G__26432 = cljs.tools.reader.reader_types.peek_char(rdr);
-sb = G__26431;
-ch = G__26432;
+var G__26433 = cljs.tools.reader.reader_types.peek_char(rdr);
+sb = G__26432;
+ch = G__26433;
 continue;
 }
 }

@@ -34,7 +34,7 @@ return cljs$tools$reader$reader_types$Reader$read_char$dyn_26139(reader);
 }
 });
 
-var cljs$tools$reader$reader_types$Reader$peek_char$dyn_26140 = (function (reader){
+var cljs$tools$reader$reader_types$Reader$peek_char$dyn_26141 = (function (reader){
 var x__4428__auto__ = (((reader == null))?null:reader);
 var m__4429__auto__ = (cljs.tools.reader.reader_types.peek_char[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -55,7 +55,7 @@ cljs.tools.reader.reader_types.peek_char = (function cljs$tools$reader$reader_ty
 if((((!((reader == null)))) && ((!((reader.cljs$tools$reader$reader_types$Reader$peek_char$arity$1 == null)))))){
 return reader.cljs$tools$reader$reader_types$Reader$peek_char$arity$1(reader);
 } else {
-return cljs$tools$reader$reader_types$Reader$peek_char$dyn_26140(reader);
+return cljs$tools$reader$reader_types$Reader$peek_char$dyn_26141(reader);
 }
 });
 
@@ -65,7 +65,7 @@ return cljs$tools$reader$reader_types$Reader$peek_char$dyn_26140(reader);
  */
 cljs.tools.reader.reader_types.IPushbackReader = function(){};
 
-var cljs$tools$reader$reader_types$IPushbackReader$unread$dyn_26141 = (function (reader,ch){
+var cljs$tools$reader$reader_types$IPushbackReader$unread$dyn_26142 = (function (reader,ch){
 var x__4428__auto__ = (((reader == null))?null:reader);
 var m__4429__auto__ = (cljs.tools.reader.reader_types.unread[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -86,7 +86,7 @@ cljs.tools.reader.reader_types.unread = (function cljs$tools$reader$reader_types
 if((((!((reader == null)))) && ((!((reader.cljs$tools$reader$reader_types$IPushbackReader$unread$arity$2 == null)))))){
 return reader.cljs$tools$reader$reader_types$IPushbackReader$unread$arity$2(reader,ch);
 } else {
-return cljs$tools$reader$reader_types$IPushbackReader$unread$dyn_26141(reader,ch);
+return cljs$tools$reader$reader_types$IPushbackReader$unread$dyn_26142(reader,ch);
 }
 });
 
@@ -777,10 +777,10 @@ while(true){
 if(cljs.tools.reader.impl.utils.newline_QMARK_(c)){
 return cljs.core.str.cljs$core$IFn$_invoke$arity$1(s);
 } else {
-var G__26152 = rdr.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
-var G__26153 = s.append(c);
-c = G__26152;
-s = G__26153;
+var G__26155 = rdr.cljs$tools$reader$reader_types$Reader$read_char$arity$1(null);
+var G__26156 = s.append(c);
+c = G__26155;
+s = G__26156;
 continue;
 }
 break;
