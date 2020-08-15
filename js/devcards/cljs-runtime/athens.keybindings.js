@@ -391,43 +391,22 @@ return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(around),cljs.core.str.cljs$c
 return [cljs.core.str.cljs$core$IFn$_invoke$arity$1(around),cljs.core.str.cljs$core$IFn$_invoke$arity$1(selection),cljs.core.str.cljs$core$IFn$_invoke$arity$1(around)].join('');
 }
 });
-/**
- * Assumes meta is selected
- */
-athens.keybindings.handle_system_shortcuts = (function athens$keybindings$handle_system_shortcuts(e,_,state){
+athens.keybindings.handle_shortcuts = (function athens$keybindings$handle_shortcuts(e,_,state){
 var map__54905 = athens.keybindings.destruct_event(e);
 var map__54905__$1 = (((((!((map__54905 == null))))?(((((map__54905.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__54905.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__54905):map__54905);
 var key_code = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54905__$1,new cljs.core.Keyword(null,"key-code","key-code",-1732114304));
-var target = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54905__$1,new cljs.core.Keyword(null,"target","target",253001721));
-var end = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54905__$1,new cljs.core.Keyword(null,"end","end",-268185958));
+var head = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54905__$1,new cljs.core.Keyword(null,"head","head",-771383919));
+var tail = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54905__$1,new cljs.core.Keyword(null,"tail","tail",-1146023564));
 var selection = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54905__$1,new cljs.core.Keyword(null,"selection","selection",975998651));
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key_code,goog.events.KeyCodes.A)){
-goog.dom.selection.setStart(target,(0));
-
-return goog.dom.selection.setEnd(target,end);
-} else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key_code,goog.events.KeyCodes.Z)){
-return cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["undo"], 0));
-} else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key_code,goog.events.KeyCodes.X)){
-return cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["cut"], 0));
-} else {
-if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key_code,goog.events.KeyCodes.V)){
-return cljs.core.prn.cljs$core$IFn$_invoke$arity$variadic(cljs.core.prim_seq.cljs$core$IFn$_invoke$arity$2(["paste"], 0));
-} else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key_code,goog.events.KeyCodes.B)){
-var new_str = athens.keybindings.surround(selection,"**");
+var new_str = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),athens.keybindings.surround(selection,"**"),cljs.core.str.cljs$core$IFn$_invoke$arity$1(tail)].join('');
 return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str);
 } else {
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key_code,goog.events.KeyCodes.I)){
-var new_str = athens.keybindings.surround(selection,"__");
+var new_str = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),athens.keybindings.surround(selection,"__"),cljs.core.str.cljs$core$IFn$_invoke$arity$1(tail)].join('');
 return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str);
 } else {
 return null;
-}
-}
-}
-}
 }
 }
 });
@@ -450,17 +429,17 @@ var end = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54909__$1,new cljs.co
 var selection = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54909__$1,new cljs.core.Keyword(null,"selection","selection",975998651));
 var close_pair = cljs.core.get.cljs$core$IFn$_invoke$arity$2(athens.keybindings.PAIR_CHARS,key);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(start,end)){
-var new_str_54925 = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),cljs.core.str.cljs$core$IFn$_invoke$arity$1(key),cljs.core.str.cljs$core$IFn$_invoke$arity$1(close_pair),cljs.core.str.cljs$core$IFn$_invoke$arity$1(tail)].join('');
+var new_str_54929 = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),cljs.core.str.cljs$core$IFn$_invoke$arity$1(key),cljs.core.str.cljs$core$IFn$_invoke$arity$1(close_pair),cljs.core.str.cljs$core$IFn$_invoke$arity$1(tail)].join('');
 setTimeout((function (){
 return goog.dom.selection.setCursorPosition(target,(start + (1)));
 }),(10));
 
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str_54925);
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str_54929);
 } else {
 if(cljs.core.not_EQ_.cljs$core$IFn$_invoke$arity$2(start,end)){
-var surround_selection_54926 = athens.keybindings.surround(selection,key);
-var new_str_54927 = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),surround_selection_54926,cljs.core.str.cljs$core$IFn$_invoke$arity$1(tail)].join('');
-cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str_54927);
+var surround_selection_54930 = athens.keybindings.surround(selection,key);
+var new_str_54931 = [cljs.core.str.cljs$core$IFn$_invoke$arity$1(head),surround_selection_54930,cljs.core.str.cljs$core$IFn$_invoke$arity$1(tail)].join('');
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str_54931);
 
 setTimeout((function (){
 goog.dom.selection.setStart(target,(start + (1)));
@@ -594,10 +573,14 @@ athens.keybindings.update_query.cljs$core$IFn$_invoke$arity$4(state,head,key,typ
 return cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$3(state,cljs.core.merge,new cljs.core.PersistentArrayMap(null, 1, [new cljs.core.Keyword(null,"atom-string","atom-string",-1067323204),new_str], null));
 });
 athens.keybindings.block_key_down = (function athens$keybindings$block_key_down(e,uid,state){
-var map__54922 = athens.keybindings.destruct_event(e);
+var d_event = athens.keybindings.destruct_event(e);
+var map__54922 = d_event;
 var map__54922__$1 = (((((!((map__54922 == null))))?(((((map__54922.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__54922.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__54922):map__54922);
 var meta = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54922__$1,new cljs.core.Keyword(null,"meta","meta",1499536964));
+var ctrl = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54922__$1,new cljs.core.Keyword(null,"ctrl","ctrl",361402094));
 var key_code = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__54922__$1,new cljs.core.Keyword(null,"key-code","key-code",-1732114304));
+cljs.core.swap_BANG_.cljs$core$IFn$_invoke$arity$4(state,cljs.core.assoc,new cljs.core.Keyword(null,"last-keydown","last-keydown",348696018),d_event);
+
 if(cljs.core.truth_(athens.keybindings.arrow_key_direction(e))){
 return athens.keybindings.handle_arrow_key(e,uid,state);
 } else {
@@ -616,14 +599,16 @@ return athens.keybindings.handle_backspace(e,uid,state);
 if(cljs.core._EQ_.cljs$core$IFn$_invoke$arity$2(key_code,goog.events.KeyCodes.ESC)){
 return athens.keybindings.handle_escape(e,state);
 } else {
-if(cljs.core.truth_(meta)){
-return athens.keybindings.handle_system_shortcuts(e,uid,state);
+if(cljs.core.truth_((function (){var or__4126__auto__ = meta;
+if(cljs.core.truth_(or__4126__auto__)){
+return or__4126__auto__;
 } else {
-if(cljs.core.truth_(athens.keybindings.is_character_key_QMARK_(e))){
-return athens.keybindings.write_char(e,uid,state);
+return ctrl;
+}
+})())){
+return athens.keybindings.handle_shortcuts(e,uid,state);
 } else {
 return null;
-}
 }
 }
 }

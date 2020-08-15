@@ -88,9 +88,9 @@ var gen_key = lru.gen_key;
 var key_gen = lru.key_gen;
 var gen = lru.gen;
 var limit = lru.limit;
-var vec__28179 = cljs.core.first(gen_key);
-var g = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28179,(0),null);
-var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28179,(1),null);
+var vec__28185 = cljs.core.first(gen_key);
+var g = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28185,(0),null);
+var k = cljs.core.nth.cljs$core$IFn$_invoke$arity$3(vec__28185,(1),null);
 return datascript.lru.__GT_LRU(cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(key_value,k),cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(gen_key,g),cljs.core.dissoc.cljs$core$IFn$_invoke$arity$2(key_gen,k),gen,limit);
 } else {
 return lru;

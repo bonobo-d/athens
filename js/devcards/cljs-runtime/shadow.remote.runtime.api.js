@@ -6,7 +6,7 @@ goog.require('cljs.core');
  */
 shadow.remote.runtime.api.IRuntime = function(){};
 
-var shadow$remote$runtime$api$IRuntime$relay_msg$dyn_59707 = (function (runtime,msg){
+var shadow$remote$runtime$api$IRuntime$relay_msg$dyn_59714 = (function (runtime,msg){
 var x__4428__auto__ = (((runtime == null))?null:runtime);
 var m__4429__auto__ = (shadow.remote.runtime.api.relay_msg[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -24,11 +24,11 @@ shadow.remote.runtime.api.relay_msg = (function shadow$remote$runtime$api$relay_
 if((((!((runtime == null)))) && ((!((runtime.shadow$remote$runtime$api$IRuntime$relay_msg$arity$2 == null)))))){
 return runtime.shadow$remote$runtime$api$IRuntime$relay_msg$arity$2(runtime,msg);
 } else {
-return shadow$remote$runtime$api$IRuntime$relay_msg$dyn_59707(runtime,msg);
+return shadow$remote$runtime$api$IRuntime$relay_msg$dyn_59714(runtime,msg);
 }
 });
 
-var shadow$remote$runtime$api$IRuntime$add_extension$dyn_59708 = (function (runtime,key,spec){
+var shadow$remote$runtime$api$IRuntime$add_extension$dyn_59715 = (function (runtime,key,spec){
 var x__4428__auto__ = (((runtime == null))?null:runtime);
 var m__4429__auto__ = (shadow.remote.runtime.api.add_extension[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -46,11 +46,11 @@ shadow.remote.runtime.api.add_extension = (function shadow$remote$runtime$api$ad
 if((((!((runtime == null)))) && ((!((runtime.shadow$remote$runtime$api$IRuntime$add_extension$arity$3 == null)))))){
 return runtime.shadow$remote$runtime$api$IRuntime$add_extension$arity$3(runtime,key,spec);
 } else {
-return shadow$remote$runtime$api$IRuntime$add_extension$dyn_59708(runtime,key,spec);
+return shadow$remote$runtime$api$IRuntime$add_extension$dyn_59715(runtime,key,spec);
 }
 });
 
-var shadow$remote$runtime$api$IRuntime$del_extension$dyn_59709 = (function (runtime,key){
+var shadow$remote$runtime$api$IRuntime$del_extension$dyn_59716 = (function (runtime,key){
 var x__4428__auto__ = (((runtime == null))?null:runtime);
 var m__4429__auto__ = (shadow.remote.runtime.api.del_extension[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -68,21 +68,21 @@ shadow.remote.runtime.api.del_extension = (function shadow$remote$runtime$api$de
 if((((!((runtime == null)))) && ((!((runtime.shadow$remote$runtime$api$IRuntime$del_extension$arity$2 == null)))))){
 return runtime.shadow$remote$runtime$api$IRuntime$del_extension$arity$2(runtime,key);
 } else {
-return shadow$remote$runtime$api$IRuntime$del_extension$dyn_59709(runtime,key);
+return shadow$remote$runtime$api$IRuntime$del_extension$dyn_59716(runtime,key);
 }
 });
 
-shadow.remote.runtime.api.reply = (function shadow$remote$runtime$api$reply(runtime,p__59703,res){
-var map__59704 = p__59703;
-var map__59704__$1 = (((((!((map__59704 == null))))?(((((map__59704.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59704.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59704):map__59704);
-var mid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59704__$1,new cljs.core.Keyword(null,"mid","mid",-2123385246));
-var tid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59704__$1,new cljs.core.Keyword(null,"tid","tid",-901350880));
-var res__$1 = (function (){var G__59706 = res;
-var G__59706__$1 = (cljs.core.truth_(mid)?cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__59706,new cljs.core.Keyword(null,"mid","mid",-2123385246),mid):G__59706);
+shadow.remote.runtime.api.reply = (function shadow$remote$runtime$api$reply(runtime,p__59710,res){
+var map__59711 = p__59710;
+var map__59711__$1 = (((((!((map__59711 == null))))?(((((map__59711.cljs$lang$protocol_mask$partition0$ & (64))) || ((cljs.core.PROTOCOL_SENTINEL === map__59711.cljs$core$ISeq$))))?true:false):false))?cljs.core.apply.cljs$core$IFn$_invoke$arity$2(cljs.core.hash_map,map__59711):map__59711);
+var mid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59711__$1,new cljs.core.Keyword(null,"mid","mid",-2123385246));
+var tid = cljs.core.get.cljs$core$IFn$_invoke$arity$2(map__59711__$1,new cljs.core.Keyword(null,"tid","tid",-901350880));
+var res__$1 = (function (){var G__59713 = res;
+var G__59713__$1 = (cljs.core.truth_(mid)?cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__59713,new cljs.core.Keyword(null,"mid","mid",-2123385246),mid):G__59713);
 if(cljs.core.truth_(tid)){
-return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__59706__$1,new cljs.core.Keyword(null,"tid","tid",-901350880),tid);
+return cljs.core.assoc.cljs$core$IFn$_invoke$arity$3(G__59713__$1,new cljs.core.Keyword(null,"tid","tid",-901350880),tid);
 } else {
-return G__59706__$1;
+return G__59713__$1;
 }
 })();
 return shadow.remote.runtime.api.relay_msg(runtime,res__$1);
@@ -93,7 +93,7 @@ return shadow.remote.runtime.api.relay_msg(runtime,res__$1);
  */
 shadow.remote.runtime.api.Inspectable = function(){};
 
-var shadow$remote$runtime$api$Inspectable$describe$dyn_59710 = (function (thing,opts){
+var shadow$remote$runtime$api$Inspectable$describe$dyn_59717 = (function (thing,opts){
 var x__4428__auto__ = (((thing == null))?null:thing);
 var m__4429__auto__ = (shadow.remote.runtime.api.describe[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -120,7 +120,7 @@ shadow.remote.runtime.api.describe = (function shadow$remote$runtime$api$describ
 if((((!((thing == null)))) && ((!((thing.shadow$remote$runtime$api$Inspectable$describe$arity$2 == null)))))){
 return thing.shadow$remote$runtime$api$Inspectable$describe$arity$2(thing,opts);
 } else {
-return shadow$remote$runtime$api$Inspectable$describe$dyn_59710(thing,opts);
+return shadow$remote$runtime$api$Inspectable$describe$dyn_59717(thing,opts);
 }
 });
 

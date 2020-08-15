@@ -6,7 +6,7 @@ goog.require('cljs.core');
  */
 sci.impl.types.IBox = function(){};
 
-var sci$impl$types$IBox$setVal$dyn_57474 = (function (_this,_v){
+var sci$impl$types$IBox$setVal$dyn_57481 = (function (_this,_v){
 var x__4428__auto__ = (((_this == null))?null:_this);
 var m__4429__auto__ = (sci.impl.types.setVal[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -24,11 +24,11 @@ sci.impl.types.setVal = (function sci$impl$types$setVal(_this,_v){
 if((((!((_this == null)))) && ((!((_this.sci$impl$types$IBox$setVal$arity$2 == null)))))){
 return _this.sci$impl$types$IBox$setVal$arity$2(_this,_v);
 } else {
-return sci$impl$types$IBox$setVal$dyn_57474(_this,_v);
+return sci$impl$types$IBox$setVal$dyn_57481(_this,_v);
 }
 });
 
-var sci$impl$types$IBox$getVal$dyn_57475 = (function (_this){
+var sci$impl$types$IBox$getVal$dyn_57482 = (function (_this){
 var x__4428__auto__ = (((_this == null))?null:_this);
 var m__4429__auto__ = (sci.impl.types.getVal[goog.typeOf(x__4428__auto__)]);
 if((!((m__4429__auto__ == null)))){
@@ -46,7 +46,7 @@ sci.impl.types.getVal = (function sci$impl$types$getVal(_this){
 if((((!((_this == null)))) && ((!((_this.sci$impl$types$IBox$getVal$arity$1 == null)))))){
 return _this.sci$impl$types$IBox$getVal$arity$1(_this);
 } else {
-return sci$impl$types$IBox$getVal$dyn_57475(_this);
+return sci$impl$types$IBox$getVal$dyn_57482(_this);
 }
 });
 
